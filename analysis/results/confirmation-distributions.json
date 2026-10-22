@@ -1,0 +1,536 @@
+{
+  "blocks": 20,
+  "configurations_per_cell": 800,
+  "distributions": {
+    "fit_mean": {
+      "absolute_axis_difference": {
+        "cells": {
+          "w0_o0": {
+            "descriptive_threshold": 0.1,
+            "mean": 0.02128406222656133,
+            "n": 800,
+            "n_strictly_above": 5,
+            "quantiles": {
+              "max": 0.1587627435041984,
+              "median": 0.016108280468298188,
+              "min": 1.3411376882842396e-06,
+              "p05": 0.0016689285080075586,
+              "p25": 0.007291249009390549,
+              "p75": 0.02913791398040995,
+              "p95": 0.058206532015953084
+            }
+          },
+          "w0_o1": {
+            "descriptive_threshold": 0.1,
+            "mean": 0.06298488819982843,
+            "n": 800,
+            "n_strictly_above": 163,
+            "quantiles": {
+              "max": 0.42439656177128204,
+              "median": 0.04364762746849614,
+              "min": 4.011881510411445e-05,
+              "p05": 0.002641977207627183,
+              "p25": 0.019181790529913686,
+              "p75": 0.08784845005908681,
+              "p95": 0.18610636023656688
+            }
+          },
+          "w1_o0": {
+            "descriptive_threshold": 0.1,
+            "mean": 0.016198543045770977,
+            "n": 800,
+            "n_strictly_above": 0,
+            "quantiles": {
+              "max": 0.09055535062315556,
+              "median": 0.012892763225264095,
+              "min": 2.028452134773625e-05,
+              "p05": 0.0011944849716367073,
+              "p25": 0.006522416054435126,
+              "p75": 0.022616958676555374,
+              "p95": 0.041263924595724755
+            }
+          },
+          "w1_o1": {
+            "descriptive_threshold": 0.1,
+            "mean": 0.03730320961122283,
+            "n": 800,
+            "n_strictly_above": 46,
+            "quantiles": {
+              "max": 0.17743649986578894,
+              "median": 0.030074600830145196,
+              "min": 4.677164833787005e-05,
+              "p05": 0.0028495642204150024,
+              "p25": 0.01459078132979791,
+              "p75": 0.0511337955422394,
+              "p95": 0.1035704801618614
+            }
+          }
+        },
+        "pooled": {
+          "descriptive_threshold": 0.1,
+          "mean": 0.0344426757708459,
+          "n": 3200,
+          "n_strictly_above": 214,
+          "quantiles": {
+            "max": 0.42439656177128204,
+            "median": 0.02151748508898098,
+            "min": 1.3411376882842396e-06,
+            "p05": 0.0018291942584128392,
+            "p25": 0.009491011125392957,
+            "p75": 0.04301688237942279,
+            "p95": 0.11277864034609347
+          }
+        }
+      },
+      "full_signature_distance": {
+        "cells": {
+          "w0_o0": {
+            "descriptive_threshold": 0.5,
+            "mean": 0.10524984872541769,
+            "n": 800,
+            "n_strictly_above": 0,
+            "quantiles": {
+              "max": 0.33595286662561474,
+              "median": 0.09757061731372499,
+              "min": 0.024108131004778623,
+              "p05": 0.04875501521921182,
+              "p25": 0.0756442759806695,
+              "p75": 0.12812487527896824,
+              "p95": 0.18231031975004983
+            }
+          },
+          "w0_o1": {
+            "descriptive_threshold": 0.5,
+            "mean": 0.2734689968041796,
+            "n": 800,
+            "n_strictly_above": 50,
+            "quantiles": {
+              "max": 0.9672165306511619,
+              "median": 0.24532666700402211,
+              "min": 0.07052114520501497,
+              "p05": 0.11236320195610684,
+              "p25": 0.1775891387300963,
+              "p75": 0.3376365612560572,
+              "p95": 0.5265472527930096
+            }
+          },
+          "w1_o0": {
+            "descriptive_threshold": 0.5,
+            "mean": 0.09719084903716783,
+            "n": 800,
+            "n_strictly_above": 0,
+            "quantiles": {
+              "max": 0.25978280554784317,
+              "median": 0.09150795310688317,
+              "min": 0.027155766420019874,
+              "p05": 0.04888889609940634,
+              "p25": 0.07028831208322564,
+              "p75": 0.11847544664397612,
+              "p95": 0.16747007962078683
+            }
+          },
+          "w1_o1": {
+            "descriptive_threshold": 0.5,
+            "mean": 0.21906654754902558,
+            "n": 800,
+            "n_strictly_above": 14,
+            "quantiles": {
+              "max": 0.7120071329082571,
+              "median": 0.20108145808412303,
+              "min": 0.03539013681590591,
+              "p05": 0.08312574716514051,
+              "p25": 0.14556054122255185,
+              "p75": 0.2726891247706651,
+              "p95": 0.4168669640817213
+            }
+          }
+        },
+        "pooled": {
+          "descriptive_threshold": 0.5,
+          "mean": 0.17374406052894767,
+          "n": 3200,
+          "n_strictly_above": 64,
+          "quantiles": {
+            "max": 0.9672165306511619,
+            "median": 0.13708896168279056,
+            "min": 0.024108131004778623,
+            "p05": 0.05589010352288283,
+            "p25": 0.09130302270994636,
+            "p75": 0.22479836151128968,
+            "p95": 0.40410317855193484
+          }
+        }
+      },
+      "signed_axis_difference": {
+        "cells": {
+          "w0_o0": {
+            "mean": 0.009013958690258039,
+            "n": 800,
+            "quantiles": {
+              "max": 0.1587627435041984,
+              "median": 0.007293512315468877,
+              "min": -0.07570665023714175,
+              "p05": -0.03287152850775649,
+              "p25": -0.007251537916985733,
+              "p75": 0.02347717489607989,
+              "p95": 0.05660138349906765
+            }
+          },
+          "w0_o1": {
+            "mean": 0.05806696633351551,
+            "n": 800,
+            "quantiles": {
+              "max": 0.42439656177128204,
+              "median": 0.0423662462277027,
+              "min": -0.09736996761729637,
+              "p05": -0.019154171718250096,
+              "p25": 0.012205261007066263,
+              "p75": 0.08766383515138894,
+              "p95": 0.18610636023656688
+            }
+          },
+          "w1_o0": {
+            "mean": 0.010100567903429662,
+            "n": 800,
+            "quantiles": {
+              "max": 0.09055535062315556,
+              "median": 0.009193343591932215,
+              "min": -0.05222084980433708,
+              "p05": -0.018415333448971383,
+              "p25": -0.0010941068935767864,
+              "p75": 0.020519201770473967,
+              "p95": 0.04011905223423372
+            }
+          },
+          "w1_o1": {
+            "mean": 0.028282291609385,
+            "n": 800,
+            "quantiles": {
+              "max": 0.1599819399820917,
+              "median": 0.02593385406382135,
+              "min": -0.17743649986578894,
+              "p05": -0.029796162917069248,
+              "p25": 0.005794103227027267,
+              "p75": 0.04780834075963803,
+              "p95": 0.10260471103551631
+            }
+          }
+        },
+        "pooled": {
+          "mean": 0.026365946134147052,
+          "n": 3200,
+          "quantiles": {
+            "max": 0.42439656177128204,
+            "median": 0.016779549549502323,
+            "min": -0.17743649986578894,
+            "p05": -0.025898680482631376,
+            "p25": 0.0004413315329302023,
+            "p75": 0.04012324118502661,
+            "p95": 0.11181448394805288
+          }
+        }
+      }
+    },
+    "zero": {
+      "absolute_axis_difference": {
+        "cells": {
+          "w0_o0": {
+            "descriptive_threshold": 0.1,
+            "mean": 0.021330703552962106,
+            "n": 800,
+            "n_strictly_above": 7,
+            "quantiles": {
+              "max": 0.13270394437332483,
+              "median": 0.015218391199075443,
+              "min": 4.915284800703665e-06,
+              "p05": 0.0011814353245826568,
+              "p25": 0.006676859174093081,
+              "p75": 0.030361584479563494,
+              "p95": 0.061831279198326476
+            }
+          },
+          "w0_o1": {
+            "descriptive_threshold": 0.1,
+            "mean": 0.04571212051523866,
+            "n": 800,
+            "n_strictly_above": 89,
+            "quantiles": {
+              "max": 0.30272990917261616,
+              "median": 0.02958551375055226,
+              "min": 0.00010660231475675269,
+              "p05": 0.002351107943105059,
+              "p25": 0.013498484269592964,
+              "p75": 0.05872665840986675,
+              "p95": 0.15208167269150508
+            }
+          },
+          "w1_o0": {
+            "descriptive_threshold": 0.1,
+            "mean": 0.013780464413032614,
+            "n": 800,
+            "n_strictly_above": 0,
+            "quantiles": {
+              "max": 0.0737933212428795,
+              "median": 0.011009760543717814,
+              "min": 3.9755659501418255e-06,
+              "p05": 0.0009945006896898085,
+              "p25": 0.004896382961784717,
+              "p75": 0.018703949794237392,
+              "p95": 0.036815451207905275
+            }
+          },
+          "w1_o1": {
+            "descriptive_threshold": 0.1,
+            "mean": 0.028690147626951535,
+            "n": 800,
+            "n_strictly_above": 26,
+            "quantiles": {
+              "max": 0.17265797916779207,
+              "median": 0.020680627198866864,
+              "min": 2.2792240488300933e-05,
+              "p05": 0.0015723864217378394,
+              "p25": 0.009135861755561202,
+              "p75": 0.03917345422219469,
+              "p95": 0.08918879439789815
+            }
+          }
+        },
+        "pooled": {
+          "descriptive_threshold": 0.1,
+          "mean": 0.02737835902704623,
+          "n": 3200,
+          "n_strictly_above": 122,
+          "quantiles": {
+            "max": 0.30272990917261616,
+            "median": 0.017225694589211492,
+            "min": 3.9755659501418255e-06,
+            "p05": 0.001333404372602881,
+            "p25": 0.007671367206644728,
+            "p75": 0.034608793183277774,
+            "p95": 0.08916235659336112
+          }
+        }
+      },
+      "full_signature_distance": {
+        "cells": {
+          "w0_o0": {
+            "descriptive_threshold": 0.5,
+            "mean": 0.10092513344375156,
+            "n": 800,
+            "n_strictly_above": 0,
+            "quantiles": {
+              "max": 0.32200074317163163,
+              "median": 0.09574194201070171,
+              "min": 0.02732431616238393,
+              "p05": 0.04825536705152863,
+              "p25": 0.07333006766383632,
+              "p75": 0.12140652016824027,
+              "p95": 0.1721604806077261
+            }
+          },
+          "w0_o1": {
+            "descriptive_threshold": 0.5,
+            "mean": 0.24126360944382688,
+            "n": 800,
+            "n_strictly_above": 32,
+            "quantiles": {
+              "max": 0.866335196072275,
+              "median": 0.2103351321474441,
+              "min": 0.061513246162341315,
+              "p05": 0.10148818810314252,
+              "p25": 0.15531319082632644,
+              "p75": 0.29255082287545797,
+              "p95": 0.48148450917164914
+            }
+          },
+          "w1_o0": {
+            "descriptive_threshold": 0.5,
+            "mean": 0.09476535127769996,
+            "n": 800,
+            "n_strictly_above": 0,
+            "quantiles": {
+              "max": 0.250232169374557,
+              "median": 0.09027749493122222,
+              "min": 0.030060681625822,
+              "p05": 0.04862988082891221,
+              "p25": 0.0705810657901569,
+              "p75": 0.11468053631532799,
+              "p95": 0.15765744403207604
+            }
+          },
+          "w1_o1": {
+            "descriptive_threshold": 0.5,
+            "mean": 0.19764276902819516,
+            "n": 800,
+            "n_strictly_above": 12,
+            "quantiles": {
+              "max": 0.6461343690647284,
+              "median": 0.17851339252301957,
+              "min": 0.03822453007492456,
+              "p05": 0.07704313233855375,
+              "p25": 0.13176170703043122,
+              "p75": 0.24350388486235736,
+              "p95": 0.3844328536642207
+            }
+          }
+        },
+        "pooled": {
+          "descriptive_threshold": 0.5,
+          "mean": 0.1586492157983684,
+          "n": 3200,
+          "n_strictly_above": 44,
+          "quantiles": {
+            "max": 0.866335196072275,
+            "median": 0.12946334503793938,
+            "min": 0.02732431616238393,
+            "p05": 0.054628501477740295,
+            "p25": 0.08880489402083545,
+            "p75": 0.1981824254253563,
+            "p95": 0.3592892432001832
+          }
+        }
+      },
+      "signed_axis_difference": {
+        "cells": {
+          "w0_o0": {
+            "mean": 0.007588858402003296,
+            "n": 800,
+            "quantiles": {
+              "max": 0.13270394437332483,
+              "median": 0.0054230172419960105,
+              "min": -0.08214484200300881,
+              "p05": -0.034004902858171676,
+              "p25": -0.0089931549915565,
+              "p75": 0.02124355116008783,
+              "p95": 0.05634498937480892
+            }
+          },
+          "w0_o1": {
+            "mean": 0.03345072584518214,
+            "n": 800,
+            "quantiles": {
+              "max": 0.30272990917261616,
+              "median": 0.020325528185095518,
+              "min": -0.09906501345039535,
+              "p05": -0.04064862962763789,
+              "p25": -0.002456329771168049,
+              "p75": 0.055860678119245485,
+              "p95": 0.15208167269150508
+            }
+          },
+          "w1_o0": {
+            "mean": 0.008638056406681445,
+            "n": 800,
+            "quantiles": {
+              "max": 0.0737933212428795,
+              "median": 0.007913960996772433,
+              "min": -0.044553411084249143,
+              "p05": -0.015685085921893164,
+              "p25": -0.0011515278704222734,
+              "p75": 0.01734499767217982,
+              "p95": 0.03610336548334859
+            }
+          },
+          "w1_o1": {
+            "mean": 0.010226512206415071,
+            "n": 800,
+            "quantiles": {
+              "max": 0.14168320869939896,
+              "median": 0.010309151853345357,
+              "min": -0.17265797916779207,
+              "p05": -0.05530048468783865,
+              "p25": -0.008121122236357935,
+              "p75": 0.027831241088244165,
+              "p95": 0.07744760295345045
+            }
+          }
+        },
+        "pooled": {
+          "mean": 0.014976038215070488,
+          "n": 3200,
+          "quantiles": {
+            "max": 0.30272990917261616,
+            "median": 0.009746468956947828,
+            "min": -0.17265797916779207,
+            "p05": -0.035805995203475306,
+            "p25": -0.004348253400789771,
+            "p75": 0.02746091539152276,
+            "p95": 0.08386001043912798
+          }
+        }
+      }
+    }
+  },
+  "families": [
+    10,
+    11
+  ],
+  "n": 3200,
+  "quantile_method": "NumPy linear empirical quantiles, probabilities 0, .05, .25, .50, .75, .95, 1",
+  "schema": 1,
+  "scope": "Descriptive completion of the frozen protocol's distribution reporting. No new inference, bootstrap, test, gate, or equivalence decision. Threshold exceedances describe cases relative to the primary average resolutions; they are not casewise failures.",
+  "sources_sha256": {
+    "analysis/describe_confirmation.py": "e33089ef7932532ab3cb76a17d6f9470178f2a1c56910df8571731dae17a0fb2",
+    "studies/bridge-007/code/analyze007.py": "748ff3b58e25e9a8555fdc0545a3e3ed955472fe6d5781e3354b907c9d977a1a",
+    "studies/bridge-007/code/verify007.py": "364a68324431cedc26c38b1842e729646b4641ec3aa829bd646d66ed84cf823d",
+    "studies/bridge-007/data/candidates.json": "2a65709bfad2f2fc04dfe11ba7977cd95676682433285145b34566fcfe8221ab",
+    "studies/bridge-007/data/input-freeze.json": "921b174ea9b292bc9bd8d35aed6f03a2041780dc6b6d3b69849ab5890d44c43c",
+    "studies/bridge-007/data/selection.json": "44debb7538a7dfa1b6a00a2019d8c59d130636889992acbd1013242a63a8c9c3",
+    "studies/bridge-007/data/test-freeze.json": "9d33cd0dc63a47103601b48e611dff31f81b46f0a17d69b4ff5cf7cabe756165",
+    "studies/bridge-007/results/analysis/per-example.npz": "749c7857980908f63eaca4d5c6ff067bc84c05de0ab1203b2375c2ad9d2f35cc",
+    "studies/bridge-007/results/analysis/summary.json": "fc5f9a07f7b3ca7d67d9857e7c28e2ae40e7af13b78fde2a369552aabbb5b877",
+    "studies/bridge-007/results/qualification-summary.json": "861fd5883bd7843ade03995f602e1f2237faab40c26510413e50f6fc0eea75e4",
+    "studies/bridge-007/results/test/clean-record.json": "2b77ee550d617aaf47135ba16e13c32bc597df15b9edf6bad7d703ee4b26bcb1",
+    "studies/bridge-007/results/test/clean.npz": "b530ba13627ec191adcac2c75c8f5d0c373bf581e0499e483839321556ecf18b",
+    "studies/bridge-007/results/test/corrupt.npz": "20aa89f1d18e5737af040a12c9407c157efee735668c825b2cc2c5f0807dfb7a",
+    "studies/bridge-007/results/test/self-record.json": "59142ce562c9908505e5cd86720f0ab282eb56e887731fd512993d7075c828cc",
+    "studies/bridge-007/results/test/self.npz": "ffa7d41eea5cd33e53c3b2aa9e4787e7a9dfe57e416ab41a1b63db0b3ef9d33a",
+    "studies/bridge-007/results/test/wording-record.json": "b2200117996b8762bbad60eff52e69af644897b5787c9abce1db424af149ff4b",
+    "studies/bridge-007/results/test/wording.npz": "d7e3489a0f556dea1e5f0e87554b7028e7fdbe2bbcaa7ba6f100acb4532fa8e6",
+    "studies/bridge-007/results/verification.json": "6176f1baf158b2391dd6a1ec6fcc76cde2aec063e423fb6feea4a4cd2eee7cf5"
+  },
+  "study": "Bridge 007",
+  "threshold_rule": "Strictly greater than .10 for absolute-axis discrepancy and .50 for full-signature discrepancy",
+  "triples": 20,
+  "units": "Matched clean-wording separation units under the frozen fitting-only coordinate scale",
+  "validation": {
+    "absolute_tolerance": 2e-12,
+    "all_cell_means_match_primary_summary": true,
+    "geometry": "Direct projection of wording-minus-self onto matched clean axis",
+    "input_binding": "Raw aggregate hashes appear in both canonical runner audit and audited primary summary; candidate bank and reference also match canonical input/test freezes",
+    "per_example_archive_role": "Cross-check only; independently reconstructed from audit-bound inputs",
+    "per_example_max_absolute_errors": {
+      "absolute_axis_difference": 2.688821387764051e-16,
+      "full_signature_distance": 1.1102230246251565e-16,
+      "signed_axis_difference": 2.688821387764051e-16
+    },
+    "primary_mean_checks": {
+      "mean_absolute_axis_difference/fit_mean": {
+        "independent_audit": 0.0344426757708459,
+        "maximum_absolute_error": 0.0,
+        "primary_summary": 0.0344426757708459,
+        "recomputed": 0.0344426757708459
+      },
+      "mean_absolute_axis_difference/zero": {
+        "independent_audit": 0.02737835902704623,
+        "maximum_absolute_error": 0.0,
+        "primary_summary": 0.02737835902704623,
+        "recomputed": 0.02737835902704623
+      },
+      "mean_full_signature_distance/fit_mean": {
+        "independent_audit": 0.17374406052894767,
+        "maximum_absolute_error": 0.0,
+        "primary_summary": 0.17374406052894767,
+        "recomputed": 0.17374406052894767
+      },
+      "mean_full_signature_distance/zero": {
+        "independent_audit": 0.1586492157983684,
+        "maximum_absolute_error": 0.0,
+        "primary_summary": 0.1586492157983684,
+        "recomputed": 0.1586492157983684
+      }
+    },
+    "status": "passed"
+  },
+  "weighting": "Every retained configuration once; the four equally sized family/order cells have equal pooled weight"
+}

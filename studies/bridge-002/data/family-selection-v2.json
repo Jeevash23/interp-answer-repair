@@ -1,0 +1,95 @@
+{
+  "families": [
+    1,
+    4
+  ],
+  "scores": {
+    "gpt2-medium": {
+      "f1_o0": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f1_o1": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 0.9375
+      },
+      "f4_o0": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 0.96875
+      },
+      "f4_o1": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 0.96875
+      },
+      "f5_o0": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f5_o1": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f6_o0": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f6_o1": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      }
+    },
+    "gpt2-small": {
+      "f1_o0": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f1_o1": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 0.96875
+      },
+      "f4_o0": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f4_o1": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f5_o0": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f5_o1": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 0.9375
+      },
+      "f6_o0": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      },
+      "f6_o1": {
+        "n": 32,
+        "pairwise": 1.0,
+        "top1": 1.0
+      }
+    }
+  },
+  "screen_freeze_sha256": "e149532a92fe1e0624bf7112eeb6818c87d8fde218f6d1b1421abd4b0a3253d6",
+  "status": "passed",
+  "utc": "2026-09-08T11:02:14.604713+00:00"
+}

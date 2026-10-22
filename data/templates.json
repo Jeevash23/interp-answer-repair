@@ -1,0 +1,130 @@
+[
+  {
+    "color": "silver",
+    "id": 0,
+    "location": "museum",
+    "object": "painting",
+    "shape": "triangle",
+    "split": "discovery"
+  },
+  {
+    "color": "golden",
+    "id": 1,
+    "location": "station",
+    "object": "newspaper",
+    "shape": "circle",
+    "split": "discovery"
+  },
+  {
+    "color": "orange",
+    "id": 2,
+    "location": "church",
+    "object": "candle",
+    "shape": "square",
+    "split": "discovery"
+  },
+  {
+    "color": "green",
+    "id": 3,
+    "location": "stadium",
+    "object": "flag",
+    "shape": "column",
+    "split": "discovery"
+  },
+  {
+    "color": "yellow",
+    "id": 4,
+    "location": "castle",
+    "object": "coin",
+    "shape": "pattern",
+    "split": "development"
+  },
+  {
+    "color": "black",
+    "id": 5,
+    "location": "hospital",
+    "object": "blanket",
+    "shape": "line",
+    "split": "development"
+  },
+  {
+    "color": "white",
+    "id": 6,
+    "location": "factory",
+    "object": "tool",
+    "shape": "symbol",
+    "split": "development"
+  },
+  {
+    "color": "blue",
+    "id": 7,
+    "location": "studio",
+    "object": "photo",
+    "shape": "figure",
+    "split": "development"
+  },
+  {
+    "color": "silver",
+    "id": 8,
+    "location": "village",
+    "object": "basket",
+    "shape": "triangle",
+    "split": "test"
+  },
+  {
+    "color": "golden",
+    "id": 9,
+    "location": "palace",
+    "object": "ring",
+    "shape": "circle",
+    "split": "test"
+  },
+  {
+    "color": "orange",
+    "id": 10,
+    "location": "cafe",
+    "object": "sandwich",
+    "shape": "square",
+    "split": "test"
+  },
+  {
+    "color": "green",
+    "id": 11,
+    "location": "hall",
+    "object": "card",
+    "shape": "column",
+    "split": "test"
+  },
+  {
+    "color": "yellow",
+    "id": 12,
+    "location": "cinema",
+    "object": "poster",
+    "shape": "pattern",
+    "split": "test"
+  },
+  {
+    "color": "black",
+    "id": 13,
+    "location": "garage",
+    "object": "rope",
+    "shape": "line",
+    "split": "test"
+  },
+  {
+    "color": "white",
+    "id": 14,
+    "location": "harbor",
+    "object": "box",
+    "shape": "symbol",
+    "split": "test"
+  },
+  {
+    "color": "blue",
+    "id": 15,
+    "location": "temple",
+    "object": "bowl",
+    "shape": "figure",
+    "split": "test"
+  }
+]

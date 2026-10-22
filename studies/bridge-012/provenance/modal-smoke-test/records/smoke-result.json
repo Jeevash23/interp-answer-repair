@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "max_abs_error_logits": 2.47955322265625e-05,
+  "tolerance": 0.0005,
+  "reproduced": "Study 6 held-out signatures and behaviour (GPT-2 Medium) for the eight fixed singleton configurations, all nine conditions, recomputed on a Modal T4 with the frozen Study 6 engine",
+  "gpu": {
+    "t4": "Tesla T4",
+    "l4": "NVIDIA L4"
+  },
+  "image": {
+    "base": "modal.Image.debian_slim(python_version=\"3.12\")",
+    "uv_sync": {
+      "extras": [
+        "experiment"
+      ],
+      "frozen": true,
+      "lock_sha256": "c3fab4b8a662d9749a930f970d92adf5e444de77e4a0e7295b88123f19c5517e"
+    },
+    "python": "3.12.10",
+    "torch": "2.13.0+cu130",
+    "cuda": "13.0",
+    "packages": {
+      "numpy": "2.5.2",
+      "transformers": "5.16.1",
+      "transformer-lens": "3.8.0",
+      "huggingface-hub": "1.29.0",
+      "safetensors": "0.8.0"
+    }
+  },
+  "weights": {
+    "source": "downloaded inside Modal from Hugging Face at pinned revisions; safetensors SHA-256 and size asserted at image build",
+    "pinned": {
+      "gpt2-medium": {
+        "repo": "openai-community/gpt2-medium",
+        "revision": "6dcaa7a952f72f9298047fd5137cd6e4f05f41da",
+        "sha256": "fc5a354a19255ad494f3d71549390baca1ccf61d1d822b9408971705c687c9cd",
+        "bytes": 1519984962
+      },
+      "gpt2-large": {
+        "repo": "openai-community/gpt2-large",
+        "revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+        "sha256": "5f47f3e12f91cd33b662ce7e433b6150ad5512b5884a2cee961b50e9c3bbebce",
+        "bytes": 3247159078
+      }
+    },
+    "tokenizer_config_matches_local": true,
+    "note": "The record kept only one non-weight file hash per model (tokenizer_config.json) because of a dictionary-key bug; it matches the local copy."
+  },
+  "runtime": {
+    "t4_function_seconds": 131.8,
+    "l4_function_seconds": 43.5,
+    "medium_reproduction_seconds": 53.6,
+    "gpt2_large_seconds_per_row": {
+      "t4": 0.1796,
+      "t4_heads_held": 0.2117,
+      "l4": 0.0951,
+      "l4_heads_held": 0.1174
+    },
+    "gpt2_large_timing_setup": "random tokens (no task prompts), 20 tokens, batch 8, 20 heads per pass, 360 END heads (layers 18-35), both references",
+    "gpt2_large_peak_gpu_gb": {
+      "t4": 6.72,
+      "l4": 4.68
+    }
+  },
+  "cost": {
+    "source": "modal billing report --for today --show-resources (2026-10-17), apps named ai01-study7-modal-smoke",
+    "total_usd": 0.1015,
+    "by_app": {
+      "ap-[redacted]": {
+        "Network Egress": 0.00754945,
+        "Memory": 0.00194089,
+        "T4": 0.02851679,
+        "CPU": 0.00855404,
+        "L4": 0.01377778
+      },
+      "ap-[redacted]": {
+        "Memory": 0.00178266,
+        "T4": 0.02753327,
+        "CPU": 0.0024904,
+        "L4": 0.00933326
+      }
+    },
+    "billed_after_credits_usd": 0.0,
+    "note": "The first attempt ran fully on Modal but failed when the local machine unpickled its result (torch.__version__ is a torch type and the Modal CLI environment has no torch); it is included in the total."
+  },
+  "transfer": {
+    "uploaded_mb_per_run": 1.31,
+    "runs": 2,
+    "received_mb": 0.177,
+    "note": "Upload is code, inputs, pyproject.toml and uv.lock; weights and packages were fetched inside Modal. Modal also billed 0.19 GiB of network egress in the first attempt ($0.0075), within the free allowance; the local machine received only the result."
+  },
+  "apps": [
+    "ap-[redacted]",
+    "ap-[redacted]"
+  ],
+  "apps_stopped": true
+}

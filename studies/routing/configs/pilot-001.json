@@ -1,0 +1,23 @@
+{
+  "experiment": "pilot-001",
+  "seed": 20260905,
+  "model_path": "../transport-project/models/gpt2-small",
+  "model_repository": "openai-community/gpt2",
+  "model_revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+  "dtype": "float32",
+  "device": "cpu",
+  "threads": 4,
+  "batch_size": 4,
+  "layers": [6, 7, 8, 9, 10, 11],
+  "heads_per_layer": 12,
+  "position": "end",
+  "baselines": ["zero", "s2_corrupt"],
+  "endpoint": "io_minus_subject_logit",
+  "within_family_scale_floor": 0.1,
+  "bootstrap_draws": 10000,
+  "minimum_behavior_accuracy": 0.75,
+  "minimum_heldout_balanced_accuracy": 0.75,
+  "identity_tolerance": 0.00001,
+  "centered_bridge_tolerance": 0.005,
+  "require_effective_corruption_mean_gap": 0.25
+}

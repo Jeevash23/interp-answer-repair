@@ -1,0 +1,265 @@
+{
+  "blocks": {
+    "discovery": [
+      [
+        "warehouse",
+        "package"
+      ],
+      [
+        "stadium",
+        "scarf"
+      ],
+      [
+        "cafe",
+        "pen"
+      ],
+      [
+        "laboratory",
+        "sample"
+      ]
+    ],
+    "medium": [
+      [
+        "zoo",
+        "coin"
+      ],
+      [
+        "castle",
+        "cup"
+      ],
+      [
+        "farm",
+        "hat"
+      ],
+      [
+        "garage",
+        "rope"
+      ],
+      [
+        "harbor",
+        "box"
+      ],
+      [
+        "temple",
+        "ring"
+      ],
+      [
+        "tower",
+        "flag"
+      ],
+      [
+        "cinema",
+        "watch"
+      ]
+    ],
+    "screen": [
+      [
+        "courthouse",
+        "map"
+      ],
+      [
+        "aquarium",
+        "card"
+      ]
+    ],
+    "test": [
+      [
+        "campsite",
+        "compass"
+      ],
+      [
+        "bakery",
+        "cake"
+      ],
+      [
+        "workshop",
+        "hammer"
+      ],
+      [
+        "palace",
+        "medal"
+      ],
+      [
+        "quarry",
+        "stone"
+      ],
+      [
+        "bookstore",
+        "poster"
+      ],
+      [
+        "observatory",
+        "chart"
+      ],
+      [
+        "greenhouse",
+        "plant"
+      ]
+    ]
+  },
+  "excluded_prior_names": [
+    "Aaron",
+    "Adam",
+    "Adrian",
+    "Alan",
+    "Albert",
+    "Alex",
+    "Alfred",
+    "Andrew",
+    "Anthony",
+    "Austin",
+    "Barry",
+    "Benjamin",
+    "Bernard",
+    "Billy",
+    "Bobby",
+    "Brandon",
+    "Bruce",
+    "Bryan",
+    "Calvin",
+    "Carl",
+    "Chad",
+    "Chris",
+    "Christian",
+    "Christopher",
+    "Daniel",
+    "David",
+    "Diana",
+    "Dorothy",
+    "Edward",
+    "Elizabeth",
+    "Emily",
+    "Emma",
+    "Frank",
+    "Fred",
+    "George",
+    "Grace",
+    "Hannah",
+    "Helen",
+    "Henry",
+    "Jack",
+    "James",
+    "Jason",
+    "Jennifer",
+    "Jessica",
+    "Julia",
+    "Julie",
+    "Justin",
+    "Karen",
+    "Kevin",
+    "Laura",
+    "Mark",
+    "Martin",
+    "Melissa",
+    "Michael",
+    "Nancy",
+    "Nicole",
+    "Oliver",
+    "Patrick",
+    "Paul",
+    "Rachel",
+    "Rebecca",
+    "Richard",
+    "Robert",
+    "Roger",
+    "Rose",
+    "Ruth",
+    "Ryan",
+    "Samantha",
+    "Scott",
+    "Sean",
+    "Sophie",
+    "Stephen",
+    "Susan",
+    "Thomas",
+    "Tim",
+    "Victor",
+    "Victoria",
+    "William"
+  ],
+  "families": [
+    "After {a} and {b} walked into the {place}, {s} handed a {obj} to",
+    "When {a} and {b} went to the {place}, {s} gave a {obj} to",
+    "When {a} and {b} walked to the {place}, {s} passed a {obj} to",
+    "After {a} and {b} visited the {place}, {s} gave the {obj} to",
+    "After {a} and {b} met at the {place}, {s} lent a {obj} to",
+    "While {a} and {b} waited in the {place}, {s} brought a {obj} to",
+    "At the {place}, {a} and {b} met. {s} gave a {obj} to",
+    "While {a} and {b} were at the {place}, {s} showed a {obj} to"
+  ],
+  "medium_families": [
+    "After {a} and {b} walked into the {place}, {s} handed a {obj} to",
+    "When {a} and {b} arrived at the {place}, {s} handed a {obj} to"
+  ],
+  "names": {
+    "discovery": [
+      "Jim",
+      "Peter",
+      "Lewis",
+      "Francis",
+      "Sarah",
+      "Larry",
+      "Ronald",
+      "Leonard",
+      "Earl",
+      "Joan",
+      "Heather",
+      "Craig"
+    ],
+    "medium": [
+      "Barbara",
+      "Megan",
+      "Linda",
+      "Travis",
+      "Jesse",
+      "Amanda",
+      "Gilbert",
+      "Todd",
+      "Jean",
+      "Maria",
+      "Ellen",
+      "Gloria",
+      "Norman",
+      "Donald",
+      "Patricia",
+      "Martha",
+      "Shirley",
+      "Harold"
+    ],
+    "screen": [
+      "Eugene",
+      "Diane",
+      "Judy",
+      "Ray",
+      "Nina",
+      "Jonathan",
+      "Sandra",
+      "Sally",
+      "Olivia",
+      "Charles",
+      "Louis",
+      "Tony"
+    ],
+    "test": [
+      "Douglas",
+      "Dale",
+      "Steven",
+      "Monica",
+      "Dylan",
+      "Will",
+      "Margaret",
+      "Bill",
+      "Jacob",
+      "Lee",
+      "Nathan",
+      "Troy",
+      "Noah",
+      "Sharon",
+      "Ashley",
+      "Danny",
+      "Carol",
+      "Amy"
+    ]
+  },
+  "selection": "Tokenization-only deterministic name sampling"
+}

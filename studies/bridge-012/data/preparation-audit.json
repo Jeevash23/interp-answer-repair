@@ -1,0 +1,23 @@
+{
+  "candidate_pairs_aligned": true,
+  "clean_and_corrupted_prompts_unused": true,
+  "exact_context_pairs_unused": true,
+  "final_test_names_never_used_in_ai01": true,
+  "names_disjoint_between_banks": true,
+  "no_name_seen_by_gpt2_large": true,
+  "order_donors_aligned": true,
+  "prepare_source_sha256": "ff653cc3c3faef610a5645f16fb9278ba88973f03af5f18d1139f4503c01f292",
+  "rows": 11584,
+  "rows_per_split": {
+    "calibration": 64,
+    "development": 576,
+    "fit": 1024,
+    "qualification": 2304,
+    "screen": 192,
+    "selection": 1024,
+    "test": 6400
+  },
+  "scientific_inference_performed": false,
+  "status": "passed",
+  "utc": "2026-10-17T03:57:20.588080+00:00"
+}

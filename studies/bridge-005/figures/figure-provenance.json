@@ -1,0 +1,12 @@
+{
+  "files": {
+    "primary-outcomes.png": "ff26f9027c59d014a0e99f78f24647b601a3dbc4ef201fab18e4db2dd41b31a2",
+    "primary-outcomes.svg": "50bb4ce4ab6c454b1700abcf6c9a87985b022c8ff1b41da3374f3978fa4a536a",
+    "selection-qualification.png": "77180520dd1a8827d94f36218e2aa795abcbc6f4f1fda4544e32da4c0e981cc8",
+    "selection-qualification.svg": "49e1ab7e84f990c1da3547a355814f5b05868e0aa5cda6bb8e15e4b60f7f50f2"
+  },
+  "scope": "Descriptive plots of saved audited quantities; no additional inference",
+  "source": "217a2d862d0bf233546f2267e03743381c704e7df58ab92a9984a99c24e86ffb",
+  "summary": "4b89cab3a3bd2868250763bd26d90e456609726ccfe1781af97088bc1faa5df8",
+  "utc": "2026-09-09T04:18:20.755727+00:00"
+}

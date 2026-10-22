@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-09-01T08:29:19.134534+00:00",
+  "repo_id": "EleutherAI/pythia-410m-deduped",
+  "revision": "c4fc8d586d62df497f1f9b69d66d3ca419992d3e",
+  "local_path": "models/pythia-410m-deduped",
+  "architecture": [
+    "GPTNeoXForCausalLM"
+  ],
+  "layers": 24,
+  "hidden_width": 1024,
+  "attention_heads": 16,
+  "vocabulary_size": 50254,
+  "weight_files": [
+    {
+      "name": "model.safetensors",
+      "bytes": 911373632,
+      "sha256": "e7ae132489f63d5d86009a8178a75c7d5d195410d067fca01a3160623e370fae"
+    }
+  ]
+}

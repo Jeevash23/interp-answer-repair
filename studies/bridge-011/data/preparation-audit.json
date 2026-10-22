@@ -1,0 +1,24 @@
+{
+  "all_clean_prompts_unique": true,
+  "clean_and_corrupted_prompts_disjoint_from_prior": true,
+  "context_pairs_disjoint_from_prior_and_between_banks": true,
+  "names_disjoint_from_prior_and_between_banks": true,
+  "new_location_words_absent_from_prior_prompts": true,
+  "one_token_corruption": true,
+  "prepare_source_sha256": "77190a639d67956157b11ce136013699c83d04368e370af117206e23dfa421d3",
+  "prior_context_pairs": 141,
+  "prior_json_sources": 98,
+  "prior_names": 465,
+  "prior_prompt_strings": 34876,
+  "rows": 3520,
+  "rows_per_split": {
+    "calibration": 32,
+    "development": 288,
+    "test": 3200
+  },
+  "scientific_inference_performed": false,
+  "single_token_names": true,
+  "status": "passed",
+  "utc": "2026-10-16T09:49:12.894833+00:00",
+  "wording_and_order_donors_aligned": true
+}

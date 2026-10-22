@@ -1,0 +1,289 @@
+% Generated from saved, independently verified Study 5 outputs.
+% Summary SHA-256: 3e2f2b5988094f7965e778af038dea6c44efdacc55b6beda40c4b4e9d9e633c2
+% Study 2 cell values: studies/bridge-007/results/analysis/summary.json SHA-256: fc5f9a07f7b3ca7d67d9857e7c28e2ae40e7af13b78fde2a369552aabbb5b877
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 5 pooled control/self discrepancies, signed donor-axis change from self and distance to the clean recipient. Means and pointwise 95\% intervals. Four replicates are averaged within each of the 3,200 configurations. Units are matched clean-wording separations; all cases are retained.}
+\label{tab:null-means}
+\begin{tabularx}{\linewidth}{@{}lYYYY@{}}
+\toprule
+Control / reference & $F_{\rm null}$ & $A_{\rm null}$ & $S_{\rm null}-S_{\rm self}$ & $q_R$ \\
+\midrule
+Random / zero & $0.124\ci{0.114}{0.135}$ & $0.023\ci{0.019}{0.029}$ & $0.010\ci{0.006}{0.016}$ & $1.088\ci{1.035}{1.140}$ \\
+Random / mean & $0.132\ci{0.121}{0.143}$ & $0.025\ci{0.020}{0.031}$ & $0.012\ci{0.007}{0.018}$ & $0.969\ci{0.920}{1.019}$ \\
+Mismatched / zero & $0.159\ci{0.147}{0.172}$ & $0.028\ci{0.023}{0.033}$ & $0.015\ci{0.009}{0.021}$ & $1.082\ci{1.030}{1.135}$ \\
+Mismatched / mean & $0.174\ci{0.160}{0.189}$ & $0.034\ci{0.029}{0.041}$ & $0.026\ci{0.020}{0.033}$ & $0.971\ci{0.922}{1.020}$ \\
+Natural / zero & $0.149\ci{0.138}{0.160}$ & $0.025\ci{0.022}{0.030}$ & $0.009\ci{0.005}{0.014}$ & $1.082\ci{1.032}{1.133}$ \\
+Natural / mean & $0.157\ci{0.145}{0.170}$ & $0.027\ci{0.023}{0.032}$ & $0.012\ci{0.007}{0.017}$ & $0.964\ci{0.918}{1.011}$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 5 geometric contrasts, retaining pointwise 95\% and 24-contrast Bonferroni intervals. Ratios and differences express the same paired comparison, with nulls 1 and 0. Difference is control/self minus wording/self discrepancy. The numerator and denominator are paired in every bootstrap draw. Limits printed as 0.000 are rounded: the pointwise upper difference limit for random/zero/A is $+0.0001$; the adjusted upper difference limit for natural/mean/A is $-0.0004$.}
+\label{tab:null-contrasts}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Control / ref. / metric & Ratio [95\% CI] & Adjusted CI & Difference [95\% CI] & Adjusted CI \\
+\midrule
+Random / zero / F & $1.279\ci{1.181}{1.374}$ & $[1.124, 1.427]$ & $-0.035\ci{-0.046}{-0.023}$ & $[-0.052, -0.016]$ \\
+Random / zero / A & $1.191\ci{0.996}{1.400}$ & $[0.891, 1.518]$ & $-0.004\ci{-0.008}{0.000}$ & $[-0.010, 0.003]$ \\
+Random / mean / F & $1.320\ci{1.217}{1.423}$ & $[1.156, 1.478]$ & $-0.042\ci{-0.055}{-0.029}$ & $[-0.062, -0.022]$ \\
+Random / mean / A & $1.399\ci{1.180}{1.645}$ & $[1.066, 1.793]$ & $-0.010\ci{-0.014}{-0.005}$ & $[-0.017, -0.002]$ \\
+Mismatched / zero / F & $0.997\ci{0.933}{1.064}$ & $[0.898, 1.106]$ & $0.001\ci{-0.010}{0.011}$ & $[-0.016, 0.017]$ \\
+Mismatched / zero / A & $0.992\ci{0.895}{1.088}$ & $[0.840, 1.142]$ & $0.000\ci{-0.002}{0.003}$ & $[-0.004, 0.005]$ \\
+Mismatched / mean / F & $0.997\ci{0.934}{1.064}$ & $[0.898, 1.104]$ & $0.000\ci{-0.011}{0.012}$ & $[-0.018, 0.018]$ \\
+Mismatched / mean / A & $0.998\ci{0.908}{1.090}$ & $[0.859, 1.145]$ & $0.000\ci{-0.003}{0.003}$ & $[-0.005, 0.005]$ \\
+Natural / zero / F & $1.067\ci{0.990}{1.148}$ & $[0.944, 1.195]$ & $-0.010\ci{-0.022}{0.001}$ & $[-0.028, 0.008]$ \\
+Natural / zero / A & $1.087\ci{0.935}{1.259}$ & $[0.863, 1.366]$ & $-0.002\ci{-0.006}{0.002}$ & $[-0.009, 0.004]$ \\
+Natural / mean / F & $1.104\ci{1.023}{1.190}$ & $[0.973, 1.243]$ & $-0.016\ci{-0.029}{-0.004}$ & $[-0.037, 0.004]$ \\
+Natural / mean / A & $1.256\ci{1.096}{1.432}$ & $[1.013, 1.537]$ & $-0.007\ci{-0.011}{-0.003}$ & $[-0.014, 0.000]$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 5 behaviour with pointwise 95\% intervals. Recovery is the IO-minus-subject logit gain over corruption. Accuracy columns are percentages over the full vocabulary (top-1) or intended name versus subject (pairwise). Same four-replicate averages and crossed bootstrap as the geometry summaries.}
+\label{tab:null-behaviour}
+\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+\toprule
+Control & Recovery (logits) & Top-1 (\%) & Pairwise (\%) \\
+\midrule
+Random & $2.258\ci{1.997}{2.529}$ & $89.3\ci{82.3}{95.2}$ & $94.3\ci{90.1}{97.8}$ \\
+Mismatched & $2.288\ci{2.028}{2.559}$ & $90.2\ci{83.4}{95.8}$ & $94.8\ci{90.7}{98.0}$ \\
+Natural & $2.335\ci{2.086}{2.597}$ & $90.4\ci{83.6}{96.0}$ & $95.5\ci{92.1}{98.3}$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 5 paired behavioural changes: control minus the named comparator. Recovery is in logits; top-1 change is in percentage points. Pointwise and 24-contrast adjusted intervals retain behavioural disruption rather than selecting accuracy-matched draws.}
+\label{tab:null-behaviour-contrasts}
+\begin{tabularx}{\linewidth}{@{}lYYYY@{}}
+\toprule
+Control & Measure & Comparator & Change [95\% CI] & Adjusted CI \\
+\midrule
+Random & Recovery & self & $-0.156\ci{-0.180}{-0.134}$ & $[-0.195, -0.121]$ \\
+Random & Recovery & wording & $-0.074\ci{-0.090}{-0.058}$ & $[-0.099, -0.047]$ \\
+Random & Top-1 & self & $-1.13\ci{-2.02}{-0.39}$ & $[-2.69, -0.01]$ \\
+Random & Top-1 & wording & $-1.41\ci{-2.25}{-0.71}$ & $[-2.86, -0.36]$ \\
+Mismatched & Recovery & self & $-0.126\ci{-0.148}{-0.105}$ & $[-0.162, -0.095]$ \\
+Mismatched & Recovery & wording & $-0.044\ci{-0.057}{-0.031}$ & $[-0.065, -0.023]$ \\
+Mismatched & Top-1 & self & $-0.25\ci{-0.96}{0.47}$ & $[-1.45, 0.95]$ \\
+Mismatched & Top-1 & wording & $-0.53\ci{-1.12}{0.01}$ & $[-1.62, 0.38]$ \\
+Natural & Recovery & self & $-0.079\ci{-0.135}{-0.022}$ & $[-0.169, 0.014]$ \\
+Natural & Recovery & wording & $0.003\ci{-0.055}{0.062}$ & $[-0.089, 0.102]$ \\
+Natural & Top-1 & self & $0.00\ci{-0.86}{0.95}$ & $[-1.41, 1.71]$ \\
+Natural & Top-1 & wording & $-0.28\ci{-1.41}{1.05}$ & $[-2.12, 2.02]$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Full-signature discrepancy from self transfer by wording/order cell: wording transfer (saved Study 2 cell summaries) and the three Study 5 controls, in clean-wording separations (800 configurations per cell; four replicates averaged per control). Brackets are pointwise 95\% intervals from the separate saved bootstrap analyses of each study; they are descriptive and are not paired cell contrasts.}
+\label{tab:null-cell-comparison}
+\begin{tabularx}{\linewidth}{@{}lYYYY@{}}
+\toprule
+Family / order / ref. & Wording & Random & Mismatched & Natural \\
+\midrule
+F10 / 0 / zero & $0.101\ci{0.091}{0.111}$ & $0.103\ci{0.090}{0.117}$ & $0.099\ci{0.089}{0.109}$ & $0.131\ci{0.119}{0.144}$ \\
+F10 / 1 / zero & $0.241\ci{0.209}{0.277}$ & $0.181\ci{0.153}{0.212}$ & $0.261\ci{0.228}{0.296}$ & $0.194\ci{0.171}{0.220}$ \\
+F11 / 0 / zero & $0.095\ci{0.086}{0.104}$ & $0.090\ci{0.082}{0.100}$ & $0.093\ci{0.086}{0.101}$ & $0.107\ci{0.096}{0.119}$ \\
+F11 / 1 / zero & $0.198\ci{0.174}{0.223}$ & $0.122\ci{0.112}{0.134}$ & $0.184\ci{0.164}{0.206}$ & $0.162\ci{0.142}{0.186}$ \\
+F10 / 0 / mean & $0.105\ci{0.095}{0.116}$ & $0.106\ci{0.094}{0.121}$ & $0.102\ci{0.092}{0.113}$ & $0.135\ci{0.123}{0.147}$ \\
+F10 / 1 / mean & $0.273\ci{0.237}{0.314}$ & $0.197\ci{0.167}{0.231}$ & $0.297\ci{0.260}{0.337}$ & $0.209\ci{0.183}{0.238}$ \\
+F11 / 0 / mean & $0.097\ci{0.088}{0.107}$ & $0.092\ci{0.083}{0.101}$ & $0.095\ci{0.087}{0.103}$ & $0.111\ci{0.100}{0.122}$ \\
+F11 / 1 / mean & $0.219\ci{0.193}{0.246}$ & $0.131\ci{0.119}{0.144}$ & $0.203\ci{0.181}{0.227}$ & $0.174\ci{0.153}{0.199}$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Random control: all wording/order/reference cells, pointwise 95\% intervals. Four replicates per configuration; 800 configurations per wording/order cell. These are descriptive summaries, not additional adjusted cell tests.}
+\label{tab:null-cells-random}
+\begin{tabularx}{\linewidth}{@{}lYYYY@{}}
+\toprule
+Family / order / ref. & $F_{\rm null}$ & $A_{\rm null}$ & $S_{\rm null}-S_{\rm self}$ & $q_R$ \\
+\midrule
+F10 / 0 / zero & $0.103\ci{0.090}{0.117}$ & $0.024\ci{0.017}{0.034}$ & $0.014\ci{0.006}{0.025}$ & $1.033\ci{0.980}{1.088}$ \\
+F10 / 0 / mean & $0.106\ci{0.094}{0.121}$ & $0.023\ci{0.017}{0.031}$ & $0.008\ci{0.001}{0.018}$ & $0.878\ci{0.829}{0.932}$ \\
+F10 / 1 / zero & $0.181\ci{0.153}{0.212}$ & $0.036\ci{0.025}{0.051}$ & $0.027\ci{0.013}{0.042}$ & $1.124\ci{1.060}{1.188}$ \\
+F10 / 1 / mean & $0.197\ci{0.167}{0.231}$ & $0.044\ci{0.030}{0.062}$ & $0.036\ci{0.020}{0.055}$ & $1.017\ci{0.945}{1.089}$ \\
+F11 / 0 / zero & $0.090\ci{0.082}{0.100}$ & $0.013\ci{0.011}{0.015}$ & $-0.001\ci{-0.005}{0.002}$ & $1.058\ci{0.994}{1.126}$ \\
+F11 / 0 / mean & $0.092\ci{0.083}{0.101}$ & $0.014\ci{0.011}{0.016}$ & $0.001\ci{-0.002}{0.005}$ & $0.908\ci{0.857}{0.963}$ \\
+F11 / 1 / zero & $0.122\ci{0.112}{0.134}$ & $0.018\ci{0.016}{0.021}$ & $0.001\ci{-0.003}{0.006}$ & $1.135\ci{1.073}{1.197}$ \\
+F11 / 1 / mean & $0.131\ci{0.119}{0.144}$ & $0.018\ci{0.016}{0.021}$ & $0.002\ci{-0.001}{0.005}$ & $1.074\ci{1.007}{1.141}$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Mismatched control: all wording/order/reference cells, pointwise 95\% intervals. Four replicates per configuration; 800 configurations per wording/order cell. These are descriptive summaries, not additional adjusted cell tests.}
+\label{tab:null-cells-mismatched}
+\begin{tabularx}{\linewidth}{@{}lYYYY@{}}
+\toprule
+Family / order / ref. & $F_{\rm null}$ & $A_{\rm null}$ & $S_{\rm null}-S_{\rm self}$ & $q_R$ \\
+\midrule
+F10 / 0 / zero & $0.099\ci{0.089}{0.109}$ & $0.021\ci{0.016}{0.027}$ & $0.008\ci{0.001}{0.018}$ & $1.017\ci{0.965}{1.073}$ \\
+F10 / 0 / mean & $0.102\ci{0.092}{0.113}$ & $0.020\ci{0.016}{0.026}$ & $0.007\ci{0.001}{0.016}$ & $0.872\ci{0.822}{0.925}$ \\
+F10 / 1 / zero & $0.261\ci{0.228}{0.296}$ & $0.048\ci{0.036}{0.063}$ & $0.037\ci{0.021}{0.054}$ & $1.143\ci{1.080}{1.206}$ \\
+F10 / 1 / mean & $0.297\ci{0.260}{0.337}$ & $0.068\ci{0.051}{0.087}$ & $0.064\ci{0.046}{0.085}$ & $1.047\ci{0.977}{1.117}$ \\
+F11 / 0 / zero & $0.093\ci{0.086}{0.101}$ & $0.014\ci{0.012}{0.016}$ & $0.008\ci{0.004}{0.011}$ & $1.048\ci{0.984}{1.116}$ \\
+F11 / 0 / mean & $0.095\ci{0.087}{0.103}$ & $0.016\ci{0.014}{0.018}$ & $0.009\ci{0.006}{0.013}$ & $0.906\ci{0.855}{0.961}$ \\
+F11 / 1 / zero & $0.184\ci{0.164}{0.206}$ & $0.028\ci{0.023}{0.033}$ & $0.007\ci{-0.002}{0.016}$ & $1.120\ci{1.059}{1.181}$ \\
+F11 / 1 / mean & $0.203\ci{0.181}{0.227}$ & $0.034\ci{0.028}{0.040}$ & $0.024\ci{0.014}{0.033}$ & $1.059\ci{0.995}{1.122}$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Natural control: all wording/order/reference cells, pointwise 95\% intervals. Four replicates per configuration; 800 configurations per wording/order cell. These are descriptive summaries, not additional adjusted cell tests.}
+\label{tab:null-cells-natural}
+\begin{tabularx}{\linewidth}{@{}lYYYY@{}}
+\toprule
+Family / order / ref. & $F_{\rm null}$ & $A_{\rm null}$ & $S_{\rm null}-S_{\rm self}$ & $q_R$ \\
+\midrule
+F10 / 0 / zero & $0.131\ci{0.119}{0.144}$ & $0.028\ci{0.021}{0.038}$ & $0.017\ci{0.008}{0.029}$ & $1.040\ci{0.987}{1.095}$ \\
+F10 / 0 / mean & $0.135\ci{0.123}{0.147}$ & $0.028\ci{0.022}{0.036}$ & $0.016\ci{0.007}{0.026}$ & $0.888\ci{0.839}{0.940}$ \\
+F10 / 1 / zero & $0.194\ci{0.171}{0.220}$ & $0.035\ci{0.027}{0.044}$ & $0.022\ci{0.012}{0.034}$ & $1.112\ci{1.050}{1.174}$ \\
+F10 / 1 / mean & $0.209\ci{0.183}{0.238}$ & $0.041\ci{0.031}{0.052}$ & $0.026\ci{0.013}{0.040}$ & $1.005\ci{0.937}{1.073}$ \\
+F11 / 0 / zero & $0.107\ci{0.096}{0.119}$ & $0.015\ci{0.012}{0.017}$ & $0.002\ci{-0.002}{0.007}$ & $1.061\ci{0.998}{1.127}$ \\
+F11 / 0 / mean & $0.111\ci{0.100}{0.122}$ & $0.016\ci{0.014}{0.019}$ & $0.003\ci{-0.002}{0.009}$ & $0.914\ci{0.865}{0.967}$ \\
+F11 / 1 / zero & $0.162\ci{0.142}{0.186}$ & $0.023\ci{0.019}{0.028}$ & $-0.004\ci{-0.011}{0.002}$ & $1.116\ci{1.057}{1.174}$ \\
+F11 / 1 / mean & $0.174\ci{0.153}{0.199}$ & $0.024\ci{0.020}{0.029}$ & $0.002\ci{-0.005}{0.009}$ & $1.050\ci{0.988}{1.110}$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 5 behaviour in every wording/order cell. Recovery is in logits and top-1 in percent, with pointwise 95\% intervals. No cell or disruption is removed.}
+\label{tab:null-cell-behaviour}
+\begin{tabularx}{\linewidth}{@{}lYY@{}}
+\toprule
+Control / family / order & Recovery & Top-1 \\
+\midrule
+Random / F10 / 0 & $1.690\ci{1.504}{1.885}$ & $97.7\ci{94.7}{99.8}$ \\
+Random / F10 / 1 & $3.691\ci{3.233}{4.178}$ & $95.9\ci{90.5}{99.6}$ \\
+Random / F11 / 0 & $1.033\ci{0.885}{1.189}$ & $79.2\ci{66.3}{90.8}$ \\
+Random / F11 / 1 & $2.618\ci{2.228}{3.026}$ & $84.3\ci{71.0}{95.3}$ \\
+Mismatched / F10 / 0 & $1.815\ci{1.618}{2.027}$ & $98.2\ci{95.6}{99.9}$ \\
+Mismatched / F10 / 1 & $3.509\ci{3.068}{3.978}$ & $96.1\ci{90.7}{99.6}$ \\
+Mismatched / F11 / 0 & $1.084\ci{0.930}{1.249}$ & $81.0\ci{68.9}{91.8}$ \\
+Mismatched / F11 / 1 & $2.744\ci{2.338}{3.169}$ & $85.4\ci{72.1}{96.2}$ \\
+Natural / F10 / 0 & $1.728\ci{1.539}{1.924}$ & $97.8\ci{94.9}{99.8}$ \\
+Natural / F10 / 1 & $3.798\ci{3.371}{4.257}$ & $97.8\ci{94.7}{99.8}$ \\
+Natural / F11 / 0 & $1.068\ci{0.923}{1.218}$ & $79.7\ci{67.0}{91.0}$ \\
+Natural / F11 / 1 & $2.747\ci{2.368}{3.149}$ & $86.4\ci{73.2}{96.9}$ \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{All four replicates of every Study 5 control. Paired geometry values are zero / mean reference. Disruption counts are: lower logit gap than self / loss of a correct self-transfer top-1 prediction / negative recovery relative to corruption, each out of 3,200. Accuracy is in percent. Replicates are Monte Carlo repeats of the same configurations.}
+\label{tab:null-replicates}
+\begin{tabularx}{\linewidth}{@{}lYYYYY@{}}
+\toprule
+Control / repeat & $F$ & $A$ & Recovery & Top-1 & Disruption counts \\
+\midrule
+Random / 1 & 0.123 / 0.130 & 0.023 / 0.025 & 2.262 & 89.2 & 2,336 / 49 / 14 \\
+Random / 2 & 0.124 / 0.131 & 0.023 / 0.024 & 2.258 & 89.3 & 2,364 / 47 / 18 \\
+Random / 3 & 0.125 / 0.133 & 0.023 / 0.025 & 2.256 & 89.4 & 2,362 / 44 / 15 \\
+Random / 4 & 0.125 / 0.132 & 0.023 / 0.025 & 2.256 & 89.3 & 2,356 / 51 / 16 \\
+Mismatched / 1 & 0.160 / 0.175 & 0.028 / 0.035 & 2.288 & 90.1 & 2,019 / 25 / 15 \\
+Mismatched / 2 & 0.161 / 0.177 & 0.027 / 0.034 & 2.288 & 90.2 & 1,950 / 30 / 12 \\
+Mismatched / 3 & 0.158 / 0.172 & 0.027 / 0.034 & 2.290 & 90.2 & 1,967 / 32 / 15 \\
+Mismatched / 4 & 0.158 / 0.173 & 0.028 / 0.035 & 2.286 & 90.3 & 2,011 / 24 / 18 \\
+Natural / 1 & 0.149 / 0.158 & 0.026 / 0.027 & 2.309 & 90.2 & 2,021 / 35 / 27 \\
+Natural / 2 & 0.152 / 0.160 & 0.025 / 0.028 & 2.348 & 90.6 & 1,894 / 28 / 28 \\
+Natural / 3 & 0.148 / 0.158 & 0.026 / 0.028 & 2.334 & 90.5 & 2,017 / 32 / 22 \\
+Natural / 4 & 0.145 / 0.153 & 0.024 / 0.027 & 2.349 & 90.4 & 1,953 / 29 / 14 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Distributions of the per-configuration four-replicate mean discrepancies (3,200 values per row) in Study 5. Quantiles describe heterogeneity rather than confidence limits. Every configuration and replicate is retained.}
+\label{tab:null-distributions}
+\begin{tabularx}{\linewidth}{@{}lYYYYY@{}}
+\toprule
+Control / ref. / metric & Minimum & 5th pct. & Median & 95th pct. & Maximum \\
+\midrule
+Random / zero / F & 0.033 & 0.055 & 0.105 & 0.258 & 0.735 \\
+Random / zero / A & 0.001 & 0.004 & 0.015 & 0.063 & 0.407 \\
+Random / mean / F & 0.033 & 0.057 & 0.109 & 0.280 & 0.772 \\
+Random / mean / A & 0.001 & 0.005 & 0.015 & 0.068 & 0.489 \\
+Mismatched / zero / F & 0.038 & 0.062 & 0.129 & 0.367 & 0.716 \\
+Mismatched / zero / A & 0.001 & 0.004 & 0.017 & 0.088 & 0.343 \\
+Mismatched / mean / F & 0.040 & 0.062 & 0.136 & 0.415 & 0.781 \\
+Mismatched / mean / A & 0.001 & 0.005 & 0.021 & 0.111 & 0.475 \\
+Natural / zero / F & 0.048 & 0.074 & 0.132 & 0.287 & 0.676 \\
+Natural / zero / A & 0.001 & 0.006 & 0.017 & 0.069 & 0.278 \\
+Natural / mean / F & 0.049 & 0.076 & 0.139 & 0.308 & 0.794 \\
+Natural / mean / A & 0.001 & 0.006 & 0.020 & 0.073 & 0.343 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Distributions of the individual configuration/replicate discrepancies (12,800 values per row) in Study 5. Quantiles describe heterogeneity rather than confidence limits. Every configuration and replicate is retained.}
+\label{tab:null-draw-distributions}
+\begin{tabularx}{\linewidth}{@{}lYYYYY@{}}
+\toprule
+Control / ref. / metric & Minimum & 5th pct. & Median & 95th pct. & Maximum \\
+\midrule
+Random / zero / F & 0.022 & 0.047 & 0.100 & 0.281 & 1.200 \\
+Random / zero / A & 0.000 & 0.001 & 0.013 & 0.073 & 0.461 \\
+Random / mean / F & 0.021 & 0.048 & 0.105 & 0.304 & 1.357 \\
+Random / mean / A & 0.000 & 0.001 & 0.014 & 0.079 & 0.556 \\
+Mismatched / zero / F & 0.029 & 0.057 & 0.125 & 0.385 & 0.864 \\
+Mismatched / zero / A & 0.000 & 0.001 & 0.017 & 0.091 & 0.453 \\
+Mismatched / mean / F & 0.029 & 0.058 & 0.133 & 0.435 & 0.898 \\
+Mismatched / mean / A & 0.000 & 0.002 & 0.021 & 0.115 & 0.537 \\
+Natural / zero / F & 0.028 & 0.063 & 0.128 & 0.309 & 0.829 \\
+Natural / zero / A & 0.000 & 0.001 & 0.016 & 0.080 & 0.445 \\
+Natural / mean / F & 0.029 & 0.065 & 0.134 & 0.331 & 0.943 \\
+Natural / mean / A & 0.000 & 0.002 & 0.018 & 0.083 & 0.550 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 5 matching checks over all 460,800 realised head injections. The tolerance for each target is $10^{-6}+10^{-5}|\mathrm{target}|$; the largest fraction of that tolerance is also reported. Zero and reconstructed-wording perturbations reproduce their respective self and wording signatures and behaviours exactly. Full-sequence signature error is $6.676\times10^{-6}$, below $5\times10^{-4}$.}
+\label{tab:null-calibration}
+\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+\toprule
+Check & Maximum absolute error & Maximum tolerance fraction & Violations \\
+\midrule
+Joint injection norm & $6.337\times10^{-7}$ & 0.0026 & 0 \\
+Cross term with self & $1.301\times10^{-5}$ & 0.0036 & 0 \\
+Perturbation norm & $5.877\times10^{-7}$ & 0.0115 & 0 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\noindent\textit{Completed verification.} Independent reconstruction checked 4,800 saved measurement chunks and 54 headline and behavioural intervals. Fresh-engine singleton replays of eight fixed cases in every condition agreed within $2.193\times10^{-5}$, below $5\times10^{-4}$. No calibration case, control replicate or disruptive observation was removed.

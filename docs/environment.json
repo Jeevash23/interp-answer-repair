@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pytest": "9.1.1",
+    "ruff": "0.16.5",
+    "scipy": "1.18.1",
+    "torch": "2.13.0",
+    "transformer-lens": "3.8.0",
+    "transformers": "5.16.1"
+  },
+  "environment": "<research>/bridge-project/.venv",
+  "execution": "GPU enabled through approved sandbox escalation; no downloads or driver changes",
+  "gpu": "[6 GB NVIDIA GPU], 6141 MiB",
+  "model_weights": "Read-only cached GPT-2 Medium and Small",
+  "python": "3.12.14",
+  "recorded_utc": "2026-09-08T07:51:13.096200+00:00"
+}

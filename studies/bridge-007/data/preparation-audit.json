@@ -1,0 +1,53 @@
+{
+  "alignment_eligible_pairs": [
+    [
+      10,
+      11
+    ],
+    [
+      10,
+      13
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      12,
+      13
+    ]
+  ],
+  "all_clean_prompts_unique": true,
+  "clean_and_corrupted_prompts_disjoint_from_prior": true,
+  "context_pairs_disjoint_from_prior_and_between_banks": true,
+  "names_disjoint_from_prior_and_between_banks": true,
+  "one_token_corruption": true,
+  "prepare_source_sha256": "bc15b657af3d53ad0db95d9efd98c24ff9c205469cf217836f88497b41553b82",
+  "prior_context_pairs": 88,
+  "prior_json_sources": 74,
+  "prior_names": 303,
+  "prior_prompt_strings": 23868,
+  "rows": 11008,
+  "rows_per_selected_pair": {
+    "calibration": 32,
+    "fit": 512,
+    "qualification": 1152,
+    "screen": 96,
+    "selection": 512,
+    "test": 3200
+  },
+  "rows_per_split": {
+    "calibration": 64,
+    "fit": 1024,
+    "qualification": 2304,
+    "screen": 192,
+    "selection": 1024,
+    "test": 6400
+  },
+  "scientific_inference_performed": false,
+  "selected_location_words_disjoint_between_banks": true,
+  "semantic_positions_valid": true,
+  "single_token_names": true,
+  "status": "passed",
+  "utc": "2026-10-04T17:59:41.412085+00:00"
+}

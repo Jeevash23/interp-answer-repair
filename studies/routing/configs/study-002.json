@@ -1,0 +1,23 @@
+{
+  "study": "study-002",
+  "seed": 26090502,
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 4,
+  "batch_size": 16,
+  "model_path": "../transport-project/models/gpt2-small",
+  "layers": [6, 7, 8, 9, 10, 11],
+  "baselines": ["zero", "s2_corrupt"],
+  "candidate_layers": [2, 4, 6],
+  "candidate_positions": ["end", "subject_second"],
+  "modes": ["rank1", "full"],
+  "ridge_penalty_fraction": 0.01,
+  "scale_floor": 0.1,
+  "bootstrap_draws": 10000,
+  "numerical_tolerance": 0.0005,
+  "minimum_family_accuracy": 0.75,
+  "minimum_pairwise_accuracy": 0.75,
+  "minimum_open_vocab_accuracy": 0.75,
+  "max_pairwise_accuracy_drop": 0.1,
+  "random_draws": 3
+}

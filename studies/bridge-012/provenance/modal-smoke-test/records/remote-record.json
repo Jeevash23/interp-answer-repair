@@ -1,0 +1,228 @@
+{
+  "purpose": "Smoke test of Modal for Study 7: reproduce saved Study 6 GPT-2 Medium results remotely; time GPT-2 Large on random tokens",
+  "rows": [
+    "b011-test-t0-p0-r0-f10-o0",
+    "b011-test-t1-p1-r1-f10-o0",
+    "b011-test-t2-p2-r0-f10-o1",
+    "b011-test-t3-p3-r1-f10-o1",
+    "b011-test-t4-p4-r0-f11-o0",
+    "b011-test-t5-p5-r1-f11-o0",
+    "b011-test-t6-p6-r0-f11-o1",
+    "b011-test-t7-p7-r1-f11-o1"
+  ],
+  "t4": {
+    "started": "2026-10-17T03:34:10.712349+00:00",
+    "environment": {
+      "python": "3.12.10",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "device": "Tesla T4",
+      "capability": [
+        7,
+        5
+      ],
+      "packages": {
+        "numpy": "2.5.2",
+        "transformers": "5.16.1",
+        "transformer-lens": "3.8.0",
+        "huggingface-hub": "1.29.0",
+        "safetensors": "0.8.0"
+      },
+      "model_hashes": {
+        "gpt2-medium": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+        "gpt2-large": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f"
+      }
+    },
+    "medium_load_seconds": 8.483684630000003,
+    "reproduction_seconds": 53.555814792999996,
+    "large_timing": {
+      "load_seconds": 8.231511134000002,
+      "rows": 16,
+      "batch": 8,
+      "site": 18,
+      "measured_heads": 360,
+      "runs": [
+        {
+          "head_chunk": 8,
+          "held": false,
+          "repeat": 0,
+          "seconds_per_row": 0.2961200708125
+        },
+        {
+          "head_chunk": 8,
+          "held": false,
+          "repeat": 1,
+          "seconds_per_row": 0.28857431556250024
+        },
+        {
+          "head_chunk": 8,
+          "held": true,
+          "repeat": 0,
+          "seconds_per_row": 0.39625444881249994
+        },
+        {
+          "head_chunk": 8,
+          "held": true,
+          "repeat": 1,
+          "seconds_per_row": 0.39742602074999933
+        },
+        {
+          "head_chunk": 20,
+          "held": false,
+          "repeat": 0,
+          "seconds_per_row": 0.1800016624999996
+        },
+        {
+          "head_chunk": 20,
+          "held": false,
+          "repeat": 1,
+          "seconds_per_row": 0.17956400056249944
+        },
+        {
+          "head_chunk": 20,
+          "held": true,
+          "repeat": 0,
+          "seconds_per_row": 0.21174373368750032
+        },
+        {
+          "head_chunk": 20,
+          "held": true,
+          "repeat": 1,
+          "seconds_per_row": 0.21313553768750015
+        }
+      ],
+      "peak_gpu_gb": 6.721804288
+    },
+    "finished": "2026-10-17T03:35:55.727881+00:00",
+    "client_wall_seconds": 131.7646976870019
+  },
+  "l4": {
+    "environment": {
+      "python": "3.12.10",
+      "torch": "2.13.0+cu130",
+      "cuda": "13.0",
+      "device": "NVIDIA L4",
+      "capability": [
+        8,
+        9
+      ],
+      "packages": {
+        "numpy": "2.5.2",
+        "transformers": "5.16.1",
+        "transformer-lens": "3.8.0",
+        "huggingface-hub": "1.29.0",
+        "safetensors": "0.8.0"
+      },
+      "model_hashes": {
+        "gpt2-medium": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+        "gpt2-large": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f"
+      }
+    },
+    "large_timing": {
+      "load_seconds": 7.871241434999998,
+      "rows": 16,
+      "batch": 8,
+      "site": 18,
+      "measured_heads": 360,
+      "runs": [
+        {
+          "head_chunk": 8,
+          "held": false,
+          "repeat": 0,
+          "seconds_per_row": 0.20865321581250007
+        },
+        {
+          "head_chunk": 8,
+          "held": false,
+          "repeat": 1,
+          "seconds_per_row": 0.1868544161875001
+        },
+        {
+          "head_chunk": 8,
+          "held": true,
+          "repeat": 0,
+          "seconds_per_row": 0.25844001718749987
+        },
+        {
+          "head_chunk": 8,
+          "held": true,
+          "repeat": 1,
+          "seconds_per_row": 0.2592256833125002
+        },
+        {
+          "head_chunk": 20,
+          "held": false,
+          "repeat": 0,
+          "seconds_per_row": 0.09523871168749976
+        },
+        {
+          "head_chunk": 20,
+          "held": false,
+          "repeat": 1,
+          "seconds_per_row": 0.095052672
+        },
+        {
+          "head_chunk": 20,
+          "held": true,
+          "repeat": 0,
+          "seconds_per_row": 0.11747189837500027
+        },
+        {
+          "head_chunk": 20,
+          "held": true,
+          "repeat": 1,
+          "seconds_per_row": 0.11736335668750009
+        }
+      ],
+      "peak_gpu_gb": 4.683878912
+    },
+    "client_wall_seconds": 43.48992472799728
+  },
+  "weights": {
+    "gpt2-medium": {
+      "repo": "openai-community/gpt2-medium",
+      "revision": "6dcaa7a952f72f9298047fd5137cd6e4f05f41da",
+      "sha256": "fc5a354a19255ad494f3d71549390baca1ccf61d1d822b9408971705c687c9cd",
+      "bytes": 1519984962
+    },
+    "gpt2-large": {
+      "repo": "openai-community/gpt2-large",
+      "revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+      "sha256": "5f47f3e12f91cd33b662ce7e433b6150ad5512b5884a2cee961b50e9c3bbebce",
+      "bytes": 3247159078
+    }
+  },
+  "image": {
+    "base": "modal.Image.debian_slim(python_version=\"3.12\")",
+    "uv_sync": {
+      "extras": [
+        "experiment"
+      ],
+      "frozen": true,
+      "lock_sha256": "c3fab4b8a662d9749a930f970d92adf5e444de77e4a0e7295b88123f19c5517e"
+    }
+  },
+  "transfer": {
+    "uploaded_bytes": 1310148,
+    "uploaded_detail": {
+      "src": 37206,
+      "studies/bridge-002/code": 87736,
+      "studies/bridge-003/code": 113818,
+      "studies/bridge-004/code": 87843,
+      "studies/bridge-005/code": 77210,
+      "studies/bridge-006/code": 50813,
+      "studies/bridge-007/code": 147430,
+      "studies/bridge-011/code": 72266,
+      "configs/study.json": 1679,
+      "studies/transport/results/experiment-004/localization/selected-heads.json": 16406,
+      "studies/bridge-007/data/selection.json": 288664,
+      "studies/bridge-007/results/fit/bank.npz": 42359,
+      "pyproject.toml": 1105,
+      "uv.lock": 277758
+    },
+    "payload_bytes": 7855,
+    "received_bytes": 177383,
+    "note": "Weights and Python packages were downloaded inside Modal, not through the local machine"
+  },
+  "utc": "2026-10-17T03:36:41.245102+00:00"
+}

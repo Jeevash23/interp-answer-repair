@@ -1,0 +1,133 @@
+{
+  "behaviour_contrasts": 12,
+  "blocks": 20,
+  "bootstrap_draws": 50000,
+  "bootstrap_seed": 2026100502,
+  "calibration_ids": [
+    "b007-calibration-t0-p0-r0-f10-o0",
+    "b007-calibration-t0-p0-r1-f10-o0",
+    "b007-calibration-t0-p0-r0-f10-o1",
+    "b007-calibration-t0-p0-r1-f10-o1",
+    "b007-calibration-t0-p0-r0-f11-o0",
+    "b007-calibration-t0-p0-r1-f11-o0",
+    "b007-calibration-t0-p0-r0-f11-o1",
+    "b007-calibration-t0-p0-r1-f11-o1"
+  ],
+  "controls": [
+    "random",
+    "mismatched",
+    "natural"
+  ],
+  "geometric_contrasts": 12,
+  "multiplicity": 24,
+  "n": 3200,
+  "random_seed": 2026100501,
+  "replicate_bootstrap_seed": 2026100503,
+  "replicates": 4,
+  "runtime": {
+    "additional_verification_hours": [
+      0.5,
+      1.5
+    ],
+    "available_cpu_count": 12,
+    "basis": [
+      {
+        "path": "studies/bridge-008/results/test/broad_self-record.json",
+        "seconds": 1133.195261
+      },
+      {
+        "path": "studies/bridge-008/results/test/broad_wording-record.json",
+        "seconds": 1137.372472
+      },
+      {
+        "path": "studies/bridge-008/results/test/matched_self-record.json",
+        "seconds": 1107.989399
+      },
+      {
+        "path": "studies/bridge-008/results/test/matched_wording-record.json",
+        "seconds": 1109.039616
+      }
+    ],
+    "cpu": "",
+    "decision": "Four replicates and all three controls; approximately four hours of full-bank inference plus verification. Eight would approximately double that CPU budget.",
+    "disk_free_bytes": 36210130944,
+    "estimated_inference_hours_4_replicates": 3.7396639566666665,
+    "estimated_inference_hours_8_replicates": 7.479327913333333,
+    "minutes_per_condition": 18.698319783333332,
+    "threads": 4
+  },
+  "scope": "Exploratory; previously inspected Study 2 final bank; not pooled",
+  "singleton_ids": [
+    "b007-test-t0-p0-r0-f10-o0",
+    "b007-test-t0-p0-r1-f10-o0",
+    "b007-test-t0-p0-r0-f10-o1",
+    "b007-test-t0-p0-r1-f10-o1",
+    "b007-test-t0-p0-r0-f11-o0",
+    "b007-test-t0-p0-r1-f11-o0",
+    "b007-test-t0-p0-r0-f11-o1",
+    "b007-test-t0-p0-r1-f11-o1"
+  ],
+  "singleton_indices": [
+    0,
+    4,
+    1,
+    5,
+    2,
+    6,
+    3,
+    7
+  ],
+  "source_heads": [
+    [
+      6,
+      4
+    ],
+    [
+      6,
+      15
+    ],
+    [
+      7,
+      2
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      15
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      12
+    ],
+    [
+      11,
+      6
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      12,
+      14
+    ]
+  ],
+  "study": 5,
+  "triples": 20,
+  "utc": "2026-10-05T03:39:35.578134+00:00"
+}

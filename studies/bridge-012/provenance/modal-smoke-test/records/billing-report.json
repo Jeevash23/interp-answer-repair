@@ -1,0 +1,20 @@
+{
+  "source": "modal billing report --for today --show-resources --json (filtered to this app), 2026-10-17",
+  "apps": {
+    "ap-[redacted]": {
+      "Network Egress": 0.00754945,
+      "Memory": 0.00194089,
+      "T4": 0.02851679,
+      "CPU": 0.00855404,
+      "L4": 0.01377778
+    },
+    "ap-[redacted]": {
+      "Memory": 0.00178266,
+      "T4": 0.02753327,
+      "CPU": 0.0024904,
+      "L4": 0.00933326
+    }
+  },
+  "total_usd": 0.10147854,
+  "summary_text": "                                     \n  Metered Cost:                0.12  \n    Ephemeral Apps:            0.12  \n  Network Egress Allowance:   -0.01  \n  Credits:                    -0.11  \n  Billed Cost:                $0.00  \n                                     \n"
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the preprint (link to be added when it is posted) and this repository."
+title: "Answer repair and downstream dependencies in activation transfer: code and results"
+abstract: "Tests whether activation transfer that repairs a language model's answer in indirect-object identification also makes its later computation resemble the donor's, measured by a signature of downstream attention-head dependencies, mainly in GPT-2 Medium."
+authors:
+  - family-names: Jeevash
+    given-names: Richard
+    orcid: "https://orcid.org/0009-0005-7812-0939"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Jeevash23/interp-answer-repair"
+keywords:
+  - mechanistic interpretability
+  - activation patching
+  - activation transfer
+  - indirect object identification
+  - GPT-2

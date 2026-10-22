@@ -1,0 +1,153 @@
+{
+  "rows": "Study 2 F10/F11 calibration bank (32 rows, 2 blocks x 2 triples), earlier used only for technical checks; no Study 6 row was used",
+  "purpose": "Code test before the Study 6 input freeze. Outputs were written to a scratch directory and are not evidence.",
+  "disclosure": "The run printed development choices and primary decisions for these 32 rows. They were seen before the input freeze. The protocol, thresholds, conditions, sample sizes and analysis had already been frozen and approved and were not changed.",
+  "calibration_checks": {
+    "gpu_vs_cpu_clean": 1.9073486328125e-05,
+    "gpu_vs_cpu_n_technical": 2.193450927734375e-05,
+    "gpu_vs_cpu_wording": 2.193450927734375e-05,
+    "head_outputs_sum_to_attention_output": 0.00010670891788322479,
+    "held_heads_equal_bank_max_error": 0.0,
+    "linearised_gap_error": 6.4373016357421875e-06,
+    "prefix_vs_full_clean": 1.811981201171875e-05,
+    "prefix_vs_full_corrupt": 1.33514404296875e-05,
+    "prefix_vs_full_n_technical": 1.811981201171875e-05,
+    "prefix_vs_full_order": 2.574920654296875e-05,
+    "prefix_vs_full_replay": 1.811981201171875e-05,
+    "prefix_vs_full_self": 1.71661376953125e-05,
+    "prefix_vs_full_self_zero": 1.33514404296875e-05,
+    "prefix_vs_full_wording": 1.71661376953125e-05,
+    "replay_equals_donor": 4.76837158203125e-07,
+    "self_at_zero_dose_equals_corrupt": 0.0
+  },
+  "development": {
+    "held": [
+      [
+        16,
+        15
+      ],
+      [
+        15,
+        14
+      ],
+      [
+        20,
+        12
+      ]
+    ],
+    "kappa": 0.85,
+    "trials": [
+      {
+        "conditions": {
+          "a_share": true,
+          "b_n1": true,
+          "c_n2": true
+        },
+        "dla_share_of_clean_gap": 0.48745565293810783,
+        "heads": [
+          [
+            16,
+            15
+          ],
+          [
+            15,
+            14
+          ],
+          [
+            20,
+            12
+          ]
+        ],
+        "k": 3,
+        "n1": {
+          "gap": 3.692561149597168,
+          "pairwise": 1.0,
+          "top1": 0.96875
+        },
+        "n1_gap_fraction": 0.9312386343930932,
+        "n2": {
+          "gap": 1.5497888326644897,
+          "pairwise": 0.875,
+          "top1": 0.75
+        },
+        "n2_recovery": 1.5497887134552002,
+        "n2_recovery_fraction": 0.7919791623579305,
+        "passed": true
+      }
+    ]
+  },
+  "primary_means": {
+    "n1": {
+      "zero": 0.5303561713902205,
+      "fit_mean": 0.4776609668493454
+    },
+    "n2": {
+      "zero": 0.37949002108325547,
+      "fit_mean": 0.36342286659580986
+    },
+    "order": {
+      "zero": 1.721843151108538,
+      "fit_mean": 1.548082314510446
+    }
+  },
+  "decisions": {
+    "n1": "not_detected",
+    "n2": "below_resolution",
+    "order": "detected"
+  },
+  "replays": {
+    "gpu": {
+      "clean": {
+        "behavior": 9.5367431640625e-06,
+        "raw": 1.811981201171875e-05
+      },
+      "corrupt": {
+        "behavior": 2.86102294921875e-06,
+        "raw": 1.621246337890625e-05
+      },
+      "n1": {
+        "behavior": 1.049041748046875e-05,
+        "raw": 1.811981201171875e-05
+      },
+      "n2": {
+        "behavior": 8.58306884765625e-06,
+        "raw": 1.71661376953125e-05
+      },
+      "order": {
+        "behavior": 5.245208740234375e-06,
+        "raw": 1.33514404296875e-05
+      },
+      "replay": {
+        "behavior": 6.67572021484375e-06,
+        "raw": 1.52587890625e-05
+      },
+      "self": {
+        "behavior": 3.814697265625e-06,
+        "raw": 1.430511474609375e-05
+      },
+      "self_kappa": {
+        "behavior": 1.1444091796875e-05,
+        "raw": 1.811981201171875e-05
+      },
+      "wording": {
+        "behavior": 4.76837158203125e-06,
+        "raw": 1.430511474609375e-05
+      }
+    },
+    "cpu": {
+      "corrupt": {
+        "behavior": 5.7220458984375e-06,
+        "raw": 1.811981201171875e-05
+      },
+      "n1": {
+        "behavior": 7.62939453125e-06,
+        "raw": 1.9073486328125e-05
+      },
+      "order": {
+        "behavior": 9.5367431640625e-06,
+        "raw": 1.71661376953125e-05
+      }
+    }
+  },
+  "audit": "passed"
+}

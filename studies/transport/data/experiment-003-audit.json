@@ -1,0 +1,32 @@
+{
+  "records": 320,
+  "templates": 16,
+  "templates_per_split": 8,
+  "records_per_template": 20,
+  "unique_entity_triples": 160,
+  "old_entity_triple_overlap": 0,
+  "status": "passed",
+  "manifest_sha256": "e761adbfd186bbe923f5ab2965bac4469b7a29fa63087ef3af6817063f830c6e",
+  "template_ids": {
+    "development": [
+      "development-beach",
+      "development-market",
+      "development-river",
+      "development-hotel",
+      "development-school",
+      "development-theater",
+      "development-library",
+      "development-cafe"
+    ],
+    "test": [
+      "test-museum",
+      "test-station",
+      "test-forest",
+      "test-church",
+      "test-kitchen",
+      "test-bridge",
+      "test-village",
+      "test-airport"
+    ]
+  }
+}

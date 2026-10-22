@@ -1,0 +1,1161 @@
+{
+  "alignment_eligible_pairs": [
+    [
+      10,
+      11
+    ]
+  ],
+  "article_rule": "an before a vowel-initial object; a otherwise; fixed context pool has no ambiguous initials",
+  "bank_family_ids": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "block_counts": {
+    "calibration": 2,
+    "fit": 8,
+    "qualification": 12,
+    "screen": 3,
+    "selection": 8,
+    "test": 20
+  },
+  "blocks": {
+    "calibration": [
+      [
+        "courtyard",
+        "ball"
+      ],
+      [
+        "stadium",
+        "cap"
+      ]
+    ],
+    "fit": [
+      [
+        "gallery",
+        "catalog"
+      ],
+      [
+        "quarry",
+        "hammer"
+      ],
+      [
+        "airport",
+        "magazine"
+      ],
+      [
+        "deli",
+        "sandwich"
+      ],
+      [
+        "campsite",
+        "lantern"
+      ],
+      [
+        "courthouse",
+        "folder"
+      ],
+      [
+        "boutique",
+        "scarf"
+      ],
+      [
+        "cottage",
+        "pencil"
+      ]
+    ],
+    "qualification": [
+      [
+        "bakery",
+        "roll"
+      ],
+      [
+        "beach",
+        "shell"
+      ],
+      [
+        "barracks",
+        "letter"
+      ],
+      [
+        "chapel",
+        "medal"
+      ],
+      [
+        "lodge",
+        "watch"
+      ],
+      [
+        "aquarium",
+        "postcard"
+      ],
+      [
+        "workshop",
+        "screw"
+      ],
+      [
+        "farm",
+        "apple"
+      ],
+      [
+        "boathouse",
+        "bottle"
+      ],
+      [
+        "greenhouse",
+        "glove"
+      ],
+      [
+        "cinema",
+        "cup"
+      ],
+      [
+        "attic",
+        "doll"
+      ]
+    ],
+    "screen": [
+      [
+        "bookstore",
+        "bag"
+      ],
+      [
+        "conservatory",
+        "seed"
+      ],
+      [
+        "station",
+        "wallet"
+      ]
+    ],
+    "selection": [
+      [
+        "lighthouse",
+        "compass"
+      ],
+      [
+        "museum",
+        "brochure"
+      ],
+      [
+        "mansion",
+        "photo"
+      ],
+      [
+        "dormitory",
+        "lamp"
+      ],
+      [
+        "shop",
+        "receipt"
+      ],
+      [
+        "depot",
+        "parcel"
+      ],
+      [
+        "park",
+        "kite"
+      ],
+      [
+        "harbor",
+        "rope"
+      ]
+    ],
+    "test": [
+      [
+        "plaza",
+        "booklet"
+      ],
+      [
+        "hostel",
+        "passport"
+      ],
+      [
+        "market",
+        "pear"
+      ],
+      [
+        "tavern",
+        "jug"
+      ],
+      [
+        "pavilion",
+        "hat"
+      ],
+      [
+        "monastery",
+        "ribbon"
+      ],
+      [
+        "office",
+        "stapler"
+      ],
+      [
+        "cathedral",
+        "card"
+      ],
+      [
+        "bistro",
+        "plate"
+      ],
+      [
+        "embassy",
+        "pen"
+      ],
+      [
+        "laboratory",
+        "notebook"
+      ],
+      [
+        "balcony",
+        "drink"
+      ],
+      [
+        "school",
+        "ruler"
+      ],
+      [
+        "bunker",
+        "radio"
+      ],
+      [
+        "brewery",
+        "mug"
+      ],
+      [
+        "castle",
+        "shield"
+      ],
+      [
+        "library",
+        "bookmark"
+      ],
+      [
+        "zoo",
+        "ticket"
+      ],
+      [
+        "chateau",
+        "key"
+      ],
+      [
+        "clinic",
+        "mask"
+      ]
+    ]
+  },
+  "candidate_pairs": [
+    [
+      10,
+      11
+    ]
+  ],
+  "context_pool": [
+    [
+      "museum",
+      "brochure"
+    ],
+    [
+      "library",
+      "bookmark"
+    ],
+    [
+      "market",
+      "pear"
+    ],
+    [
+      "station",
+      "wallet"
+    ],
+    [
+      "school",
+      "ruler"
+    ],
+    [
+      "theater",
+      "flower"
+    ],
+    [
+      "hotel",
+      "envelope"
+    ],
+    [
+      "airport",
+      "magazine"
+    ],
+    [
+      "beach",
+      "shell"
+    ],
+    [
+      "clinic",
+      "mask"
+    ],
+    [
+      "gallery",
+      "catalog"
+    ],
+    [
+      "office",
+      "stapler"
+    ],
+    [
+      "park",
+      "kite"
+    ],
+    [
+      "restaurant",
+      "menu"
+    ],
+    [
+      "shop",
+      "receipt"
+    ],
+    [
+      "zoo",
+      "ticket"
+    ],
+    [
+      "castle",
+      "shield"
+    ],
+    [
+      "farm",
+      "apple"
+    ],
+    [
+      "garage",
+      "brush"
+    ],
+    [
+      "harbor",
+      "rope"
+    ],
+    [
+      "temple",
+      "candle"
+    ],
+    [
+      "tower",
+      "map"
+    ],
+    [
+      "cinema",
+      "cup"
+    ],
+    [
+      "courthouse",
+      "folder"
+    ],
+    [
+      "aquarium",
+      "postcard"
+    ],
+    [
+      "warehouse",
+      "box"
+    ],
+    [
+      "stadium",
+      "cap"
+    ],
+    [
+      "cafe",
+      "cookie"
+    ],
+    [
+      "laboratory",
+      "notebook"
+    ],
+    [
+      "campsite",
+      "lantern"
+    ],
+    [
+      "bakery",
+      "roll"
+    ],
+    [
+      "workshop",
+      "screw"
+    ],
+    [
+      "palace",
+      "ring"
+    ],
+    [
+      "quarry",
+      "hammer"
+    ],
+    [
+      "bookstore",
+      "bag"
+    ],
+    [
+      "observatory",
+      "lens"
+    ],
+    [
+      "greenhouse",
+      "glove"
+    ],
+    [
+      "abbey",
+      "book"
+    ],
+    [
+      "attic",
+      "doll"
+    ],
+    [
+      "balcony",
+      "drink"
+    ],
+    [
+      "barracks",
+      "letter"
+    ],
+    [
+      "bistro",
+      "plate"
+    ],
+    [
+      "boathouse",
+      "bottle"
+    ],
+    [
+      "boutique",
+      "scarf"
+    ],
+    [
+      "brewery",
+      "mug"
+    ],
+    [
+      "bunker",
+      "radio"
+    ],
+    [
+      "cabin",
+      "blanket"
+    ],
+    [
+      "cathedral",
+      "card"
+    ],
+    [
+      "cellar",
+      "basket"
+    ],
+    [
+      "chapel",
+      "medal"
+    ],
+    [
+      "chateau",
+      "key"
+    ],
+    [
+      "clubhouse",
+      "towel"
+    ],
+    [
+      "conservatory",
+      "seed"
+    ],
+    [
+      "cottage",
+      "pencil"
+    ],
+    [
+      "courtyard",
+      "ball"
+    ],
+    [
+      "deli",
+      "sandwich"
+    ],
+    [
+      "depot",
+      "parcel"
+    ],
+    [
+      "dormitory",
+      "lamp"
+    ],
+    [
+      "embassy",
+      "pen"
+    ],
+    [
+      "fortress",
+      "coin"
+    ],
+    [
+      "gazebo",
+      "fan"
+    ],
+    [
+      "gymnasium",
+      "whistle"
+    ],
+    [
+      "hangar",
+      "glove"
+    ],
+    [
+      "hostel",
+      "passport"
+    ],
+    [
+      "lighthouse",
+      "compass"
+    ],
+    [
+      "lodge",
+      "watch"
+    ],
+    [
+      "mansion",
+      "photo"
+    ],
+    [
+      "monastery",
+      "ribbon"
+    ],
+    [
+      "orchard",
+      "basket"
+    ],
+    [
+      "pavilion",
+      "hat"
+    ],
+    [
+      "plaza",
+      "booklet"
+    ],
+    [
+      "tavern",
+      "jug"
+    ]
+  ],
+  "context_pool_eligible": 69,
+  "context_pool_rejected": [
+    [
+      "theater",
+      "flower"
+    ],
+    [
+      "restaurant",
+      "menu"
+    ],
+    [
+      "palace",
+      "ring"
+    ]
+  ],
+  "excluded_names": [
+    "Aaron",
+    "Adam",
+    "Adrian",
+    "Alan",
+    "Albert",
+    "Alberto",
+    "Alex",
+    "Alexander",
+    "Alfred",
+    "Alice",
+    "Alison",
+    "Amanda",
+    "Amy",
+    "Anders",
+    "Andrew",
+    "Ann",
+    "Anna",
+    "Anne",
+    "Annie",
+    "Anthony",
+    "Antonio",
+    "April",
+    "Arthur",
+    "Ashley",
+    "Audrey",
+    "Austin",
+    "Avery",
+    "Axel",
+    "Barbara",
+    "Barry",
+    "Bella",
+    "Benedict",
+    "Benjamin",
+    "Bernard",
+    "Betty",
+    "Bill",
+    "Billy",
+    "Blake",
+    "Bob",
+    "Bobby",
+    "Bonnie",
+    "Brad",
+    "Brandon",
+    "Brent",
+    "Brett",
+    "Brian",
+    "Bruce",
+    "Bryan",
+    "Calvin",
+    "Carl",
+    "Carlos",
+    "Carol",
+    "Caroline",
+    "Carter",
+    "Catherine",
+    "Chad",
+    "Charles",
+    "Charlotte",
+    "Chris",
+    "Christian",
+    "Christopher",
+    "Claire",
+    "Clara",
+    "Clifford",
+    "Connor",
+    "Craig",
+    "Curtis",
+    "Dale",
+    "Damian",
+    "Daniel",
+    "Danny",
+    "David",
+    "Dawn",
+    "Dean",
+    "Deborah",
+    "Diana",
+    "Diane",
+    "Donald",
+    "Donna",
+    "Dorothy",
+    "Douglas",
+    "Duncan",
+    "Dylan",
+    "Earl",
+    "Eden",
+    "Edward",
+    "Elaine",
+    "Eleanor",
+    "Elena",
+    "Elizabeth",
+    "Ellen",
+    "Elliott",
+    "Emily",
+    "Emma",
+    "Eric",
+    "Erin",
+    "Ernest",
+    "Eugene",
+    "Everett",
+    "Faith",
+    "Felix",
+    "Florence",
+    "Floyd",
+    "Frances",
+    "Francis",
+    "Francisco",
+    "Frank",
+    "Fred",
+    "Frederick",
+    "Gabriel",
+    "Gareth",
+    "Gary",
+    "Gavin",
+    "Geoffrey",
+    "George",
+    "Gilbert",
+    "Gloria",
+    "Gordon",
+    "Grace",
+    "Gregory",
+    "Guy",
+    "Hannah",
+    "Harold",
+    "Harry",
+    "Hazel",
+    "Heather",
+    "Helen",
+    "Henry",
+    "Howard",
+    "Hugh",
+    "Hunter",
+    "Ian",
+    "Isaac",
+    "Isabel",
+    "Jack",
+    "Jacob",
+    "Jade",
+    "Jake",
+    "James",
+    "Jamie",
+    "Jared",
+    "Jason",
+    "Jasper",
+    "Jay",
+    "Jean",
+    "Jed",
+    "Jeffrey",
+    "Jennifer",
+    "Jenny",
+    "Jerry",
+    "Jesse",
+    "Jessica",
+    "Jim",
+    "Jimmy",
+    "Joan",
+    "Joe",
+    "John",
+    "Jonah",
+    "Jonathan",
+    "Jordan",
+    "Joseph",
+    "Judy",
+    "Julia",
+    "Julie",
+    "Justin",
+    "Karen",
+    "Kathy",
+    "Keith",
+    "Kenneth",
+    "Kerry",
+    "Kevin",
+    "Larry",
+    "Laura",
+    "Lauren",
+    "Lawrence",
+    "Lee",
+    "Leo",
+    "Leonard",
+    "Lewis",
+    "Linda",
+    "Lisa",
+    "Liz",
+    "Lorenzo",
+    "Louis",
+    "Louise",
+    "Lucy",
+    "Luke",
+    "Lynn",
+    "Madison",
+    "Malcolm",
+    "Marcel",
+    "Margaret",
+    "Maria",
+    "Mark",
+    "Martha",
+    "Martin",
+    "Mary",
+    "Mason",
+    "Matthew",
+    "Max",
+    "Maxwell",
+    "Megan",
+    "Mel",
+    "Melissa",
+    "Michael",
+    "Michelle",
+    "Mike",
+    "Milo",
+    "Milton",
+    "Molly",
+    "Monica",
+    "Morgan",
+    "Nancy",
+    "Naomi",
+    "Natasha",
+    "Nathan",
+    "Neil",
+    "Nelson",
+    "Nicholas",
+    "Nicole",
+    "Nina",
+    "Noah",
+    "Noel",
+    "Nora",
+    "Norman",
+    "Oliver",
+    "Olivia",
+    "Oscar",
+    "Owen",
+    "Parker",
+    "Pat",
+    "Patricia",
+    "Patrick",
+    "Paul",
+    "Pearl",
+    "Perry",
+    "Peter",
+    "Philip",
+    "Phillip",
+    "Quentin",
+    "Rachel",
+    "Randall",
+    "Ray",
+    "Rebecca",
+    "Richard",
+    "Rita",
+    "Robert",
+    "Roberto",
+    "Robin",
+    "Roger",
+    "Romeo",
+    "Ronald",
+    "Rosa",
+    "Rose",
+    "Roy",
+    "Ruby",
+    "Russell",
+    "Ruth",
+    "Ryan",
+    "Sally",
+    "Samantha",
+    "Samuel",
+    "Sandra",
+    "Sandy",
+    "Sarah",
+    "Savannah",
+    "Scott",
+    "Sean",
+    "Sergio",
+    "Sharon",
+    "Shelby",
+    "Shirley",
+    "Sophie",
+    "Spencer",
+    "Stanley",
+    "Stephen",
+    "Steve",
+    "Steven",
+    "Stuart",
+    "Summer",
+    "Susan",
+    "Sydney",
+    "Taylor",
+    "Theresa",
+    "Thomas",
+    "Tim",
+    "Todd",
+    "Tony",
+    "Tracy",
+    "Travis",
+    "Trevor",
+    "Troy",
+    "Tyler",
+    "Victor",
+    "Victoria",
+    "Vincent",
+    "Virginia",
+    "Wallace",
+    "Walter",
+    "Will",
+    "William",
+    "Winston",
+    "Xavier"
+  ],
+  "families": {
+    "10": "In the {place}, {a} and {b} talked. {s} handed {article} {obj} to",
+    "11": "While {a} and {b} stood in the {place}, {s} passed {article} {obj} to",
+    "12": "Near the {place}, {a} and {b} waited. {s} gave {article} {obj} to",
+    "13": "When {a} and {b} stopped at the {place}, {s} showed {article} {obj} to"
+  },
+  "family_ids": [
+    10,
+    11
+  ],
+  "inherited_candidate_manifest_family_ids": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "inherited_data_seed": 2026100407,
+  "model": "gpt2-small",
+  "name_counts": {
+    "calibration": 6,
+    "fit": 24,
+    "qualification": 36,
+    "screen": 12,
+    "selection": 24,
+    "test": 60
+  },
+  "name_pool_sources": {
+    "studies/bridge-003/code/build003.py": "48df3a4c0206a44131d6f8c63687743e7231ab42670deffa4f8d1103ce0fc3ce",
+    "studies/bridge-004/code/build004.py": "5f65519cfa01433395dad77d4df36bbd944f4d943891a54766b8c47b6b9c19af",
+    "studies/bridge-005/code/build005.py": "cb55ae0acdf8e84b1a0cd5602c6ec003bedfa7d736f5f512afc32ff95ff9aaf1"
+  },
+  "names": {
+    "calibration": [
+      "Teresa",
+      "Aurora",
+      "Gerald",
+      "Lydia",
+      "Valerie",
+      "Wade"
+    ],
+    "fit": [
+      "Penny",
+      "Whitney",
+      "Wesley",
+      "Vince",
+      "Damon",
+      "Drew",
+      "Fiona",
+      "Miranda",
+      "Pablo",
+      "Chandler",
+      "Kristen",
+      "Becky",
+      "Hank",
+      "Klaus",
+      "Arnold",
+      "Harriet",
+      "Elias",
+      "Harvey",
+      "Dakota",
+      "Lana",
+      "Cooper",
+      "Hector",
+      "Lucia",
+      "Beth"
+    ],
+    "qualification": [
+      "Boris",
+      "Maggie",
+      "Allan",
+      "Sonia",
+      "Kai",
+      "Pamela",
+      "Melody",
+      "Fernando",
+      "Conrad",
+      "Katherine",
+      "Ben",
+      "Cassandra",
+      "Sal",
+      "Chester",
+      "Quincy",
+      "Esther",
+      "Marshall",
+      "Shannon",
+      "Leah",
+      "Nolan",
+      "Lester",
+      "Elsa",
+      "Randy",
+      "Edwin",
+      "Derek",
+      "Corey",
+      "Vernon",
+      "Tommy",
+      "Nigel",
+      "Haley",
+      "Remy",
+      "Tina",
+      "Grant",
+      "Rex",
+      "Morris",
+      "Dennis"
+    ],
+    "screen": [
+      "Karl",
+      "Pierce",
+      "Wendy",
+      "Sheila",
+      "Ashton",
+      "Casey",
+      "Maya",
+      "Lena",
+      "Riley",
+      "Katie",
+      "Hope",
+      "Leslie"
+    ],
+    "selection": [
+      "Julian",
+      "Ralph",
+      "Theodore",
+      "Elijah",
+      "Herman",
+      "Paige",
+      "Kurt",
+      "Tara",
+      "Preston",
+      "Mitchell",
+      "Lara",
+      "Donovan",
+      "Janet",
+      "Jane",
+      "Kay",
+      "Danielle",
+      "Vera",
+      "June",
+      "Sterling",
+      "Petra",
+      "Lily",
+      "Christina",
+      "Raj",
+      "Wayne"
+    ],
+    "test": [
+      "Terry",
+      "Mae",
+      "Omar",
+      "Warren",
+      "Hugo",
+      "Lois",
+      "Ellis",
+      "Rudy",
+      "Anita",
+      "Kim",
+      "Kara",
+      "Jonas",
+      "Rafael",
+      "Kent",
+      "Juan",
+      "Bradley",
+      "Marvin",
+      "Angela",
+      "Manuel",
+      "Neville",
+      "Dan",
+      "Shawn",
+      "Andrea",
+      "Judith",
+      "Denise",
+      "Ethan",
+      "Mia",
+      "Saul",
+      "Otto",
+      "Glenn",
+      "Samson",
+      "Jorge",
+      "Gus",
+      "Irving",
+      "Marc",
+      "Shaun",
+      "Christine",
+      "Jill",
+      "Zack",
+      "Luis",
+      "Ali",
+      "Timothy",
+      "Dominic",
+      "Lucas",
+      "Sid",
+      "Suzanne",
+      "Heidi",
+      "Bailey",
+      "Carmen",
+      "Trent",
+      "Edgar",
+      "Rob",
+      "Cody",
+      "Kendrick",
+      "Josh",
+      "Kate",
+      "Brock",
+      "Val",
+      "Roman",
+      "Logan"
+    ]
+  },
+  "prior_input_sources": {
+    "data/previous-project-hashes.json": "a380378fac022e2e2f2970f7408409eb31b01a9c80f1b0555a046f00931ed3ec",
+    "data/prompts.json": "af7cfd7d32d23bb655dc6df3988557363b084c2ab1b49562aebc2a69d9bb9259",
+    "data/recipients.json": "209998d6338f3d1f7fb7b76411a9a1405d132e5193a737a3ad4853a0c64140ba",
+    "data/source-freeze.json": "6266d531286a6f978972b382a4bd2e350a9e9f63a97b2800d9161af6a8e56b01",
+    "data/templates.json": "966a119dd43d4c5d2868dccbb91b52435a01f2ad6ab3d9b321dba13a4bb47996",
+    "studies/bridge-002/data/candidates-v2.json": "edbef3f161572827395a0e2c7835d75465dd3e78f073d430760b75b1c231fccf",
+    "studies/bridge-002/data/candidates.json": "ad255e1b1658fcf1f357a0e6ed842f39ee532c7f08bd2f957b4e83eef21fb93a",
+    "studies/bridge-002/data/family-selection-v2.json": "f9ebb7a62aae1e7321148b95ebe540fafbc8a8cc4a95ff530ba6a0b9562cb52a",
+    "studies/bridge-002/data/family-selection.json": "029a6e8fe16ba2c6433b5ab40f4266b8d4a935efe93e5c909aedee7be09f56a4",
+    "studies/bridge-002/data/prior-files.json": "96c5557ae4737724139f72321ca0df4f082d8149b04c5065dba39cf65b37f2ee",
+    "studies/bridge-002/data/recipients.json": "a1ad8cf63518db80c1a7c6c71c275927b80b6dfdcc256d3e4b7d80998f716307",
+    "studies/bridge-002/data/scientific-freeze.json": "393ccc58df20877e190c97dcb68fa459512b88b9c0b817cfd3bd149ccbd5ec89",
+    "studies/bridge-002/data/screen-freeze-v2.json": "e149532a92fe1e0624bf7112eeb6818c87d8fde218f6d1b1421abd4b0a3253d6",
+    "studies/bridge-002/data/screen-freeze.json": "d958e02e118bc6c09b7c536120f2256cd1e2278d5319596d900d3a75c0535b93",
+    "studies/bridge-003/data/broad-selection.json": "b8de65c3dd947fe457c4af964da223d8263f5b5df9bbd2ab67c18cb886928314",
+    "studies/bridge-003/data/broad-test-freeze.json": "7c88d46268407dea46efbe00915ebb357edaa0b15d797308fd2e38a0a3dff3f6",
+    "studies/bridge-003/data/checkpoints.json": "bbbf7fc03a1850ebb8738d71e7ad2983f80f6ab93a950e2e890bc2fcfd8c38c4",
+    "studies/bridge-003/data/config.json": "886443628085777049472fba2e5b81fdd39cafdf7f9cc93cfe98d5660411899b",
+    "studies/bridge-003/data/design.json": "27a3755927c4c9c8087037aaa447c1d9017c490741c0aefa6df6d0abbb7889a4",
+    "studies/bridge-003/data/discovery-freeze.json": "5a5ecf1606cfe97d97cded3e567c8dc0bb387b6b66ef5a468978892d323f3762",
+    "studies/bridge-003/data/gpt2-medium-candidates.json": "f012b25752b32a75d10a51b352b7a8691c634e0fea3ab90abdd06e932446ea19",
+    "studies/bridge-003/data/input-freeze.json": "6cd8cc7539a0aca61497139b84e7776e50796d4c8ef281f24373ea5ec87b5ff0",
+    "studies/bridge-003/data/medium-freeze.json": "a28bf917823e718b88388d7e81a0c4295b3180ff1445b91dcb16edd6b42bace6",
+    "studies/bridge-003/data/medium-selection.json": "84db91201932db5602473f049697e58f7b750a686b1971491030f81fb3059109",
+    "studies/bridge-003/data/prior-files.json": "61f2417914c8d7f246184c924bf661e7b26cb7df7b8297efb584e69f7773283a",
+    "studies/bridge-003/data/pythia-410m-deduped-candidates.json": "1ffb7cd5bd4a08ffebb63a903e49d37f200cb34897fecc2f955d30fd76eaaf53",
+    "studies/bridge-003/data/screen-freeze.json": "ea672c2a528fc31c82a2111c1663245b96e77562202749211c539fc6bc69235a",
+    "studies/bridge-004/data/analysis-correction-freeze.json": "981319ae0fdf2dd83c0bd1f08868e329308a1b3e8dde8a6b33e5cfd29f334382",
+    "studies/bridge-004/data/checkpoints.json": "e1da12e7f50e48f6b7872ade50fbd432a796c4c25923695b52f3e82b3878f0b9",
+    "studies/bridge-004/data/design.json": "2633a118d63da8c81910ccd035b0641163a1ca527245df432cafd0890d7d65ec",
+    "studies/bridge-004/data/gpt2-medium-candidates.json": "535bc65ce52c151dd61dbe769074e441ce6327786fbffcd2914b581da90efbad",
+    "studies/bridge-004/data/gpt2-medium-discovery-freeze.json": "cfae34bcb00466c2b9fb42213ddeb600a20846e0e33b99814deb9b2058c413a8",
+    "studies/bridge-004/data/gpt2-medium-selection.json": "44570f0c79ff0db3fce882648fd6ec1c54b6f6d728fdf92e516102c94359c244",
+    "studies/bridge-004/data/gpt2-medium-test-freeze.json": "7c3874d58d702f19386c6c810e066f128663671c60f9bd0a3b3ae3face3e0ed0",
+    "studies/bridge-004/data/input-freeze.json": "d88a30bfe02d05ad75ff1e0c8236a2ead5fed2a668999ce217364a4b1e28a69f",
+    "studies/bridge-004/data/supplemental-controls-freeze.json": "6ceed550d489e27da4318cef407dffe7a7111fd1e1ffead1f76b303edacd784e",
+    "studies/bridge-004/data/tinyllama-1.1b-base-candidates.json": "7474eae65e3f54e94c21df985308db98b48d68b8506c0ae5b59587e47ceffd09",
+    "studies/bridge-004/data/tinyllama-1.1b-base-discovery-freeze.json": "de4462b86c0aa758464bdb31717f2780f0c13febfd2f4a855068d771374bbf5f",
+    "studies/bridge-004/data/tinyllama-1.1b-base-selection.json": "b74aa7b2fe5824916e238bc8afa96eced739d630e0ca7da50223ad23cfd11c72",
+    "studies/bridge-004/data/tinyllama-1.1b-base-test-freeze.json": "abdf50afac75db9e8405298f1cec1601119bfa0255dd2aaf1c7db4ebca9f514a",
+    "studies/bridge-005/data/candidates.json": "9ca52960f8337f5134c865ca2b7a74252871a94fdb10c03646463e35d13abd4d",
+    "studies/bridge-005/data/checkpoint.json": "a78bcf8c7768fcd899161bc4b99590e522e8f98144e5808a4a5e81f829132fbb",
+    "studies/bridge-005/data/design.json": "9f7686062103547a1e9d492582c0a2964b0b70561217b1f4b80e3c76dfa7c123",
+    "studies/bridge-005/data/input-freeze.json": "7e030c959239d327eb434a39d88fa113b6892385b403bd0c62339eba1decb8c4",
+    "studies/bridge-005/data/prior-preservation.json": "daf170ac081e082915f20af04cf045979d9945071952f204751c57da557be7e6",
+    "studies/bridge-005/data/screen-freeze.json": "36c132947080b9df9b5e57464816e0b7f5dd6a07dec9d0d343893b01d67fbabd",
+    "studies/bridge-005/data/selection-freeze.json": "5200ca078c8f89748456494103bca22cd2e3f2d9b59911b47056499bbff93621",
+    "studies/bridge-005/data/selection.json": "217a2d862d0bf233546f2267e03743381c704e7df58ab92a9984a99c24e86ffb",
+    "studies/bridge-005/data/test-freeze.json": "c78b9e6fab90b4c0c0635ccade3a7806305c0b25ed33024609276f570f9d50ee",
+    "studies/bridge-006/data/qualification.json": "2be625d3d888fd0a8ff9e62a21df4e431df649d8c4247552520b7147580c91d7",
+    "studies/bridge-006/data/test.json": "48c527d3e1dfe7d1e160f298e289e26101eb5762765aeeb9a5bb36651a8eedfe",
+    "studies/routing/data/pilot-001-freeze.json": "dc4e111a0af4a56857e60f811940103ee08572f6e5d0ac4d591d48da9ce86bb6",
+    "studies/routing/data/pilot-001.jsonl": "f5e9164908fcf1c2b1b98828ded94bb30f8ae1659567959f6f38ae5823e8fa0b",
+    "studies/routing/data/previous-project-readonly-baseline.json": "f2a786160c4fa5b5cbf54820ee14a70ecb41c4fa3dded91d8d1dcefe7bf38154",
+    "studies/routing/data/study-002-analysis-freeze.json": "d023b0b9e60a600c46ce6158f582b449088f860e9cda29c6cd086bf519bc306b",
+    "studies/routing/data/study-002-freeze.json": "8e669ff6814677fac1730ff64fdd936aa148bcd694743335b041410eeda21d37",
+    "studies/routing/data/study-002-prompts.json": "573e88f23446ba6f045a4f1a527eb12f62cce2456539d82989a16ac14ddb7251",
+    "studies/routing/data/study-002-recipients.json": "edb1b1a88fe20ac8f3ba0718e2bbfed8eab9173c623b2b34c9adde08a00924cb",
+    "studies/routing/data/study-002-selection-freeze.json": "4a10e3e91a7d1c2a5de689d835220a4c26d1b129f4d82f6a3134834e32d6174a",
+    "studies/transport/data/experiment-001-freeze.json": "b46f4584de500940c4438ecca38557e7f28832b2c973e3af8a9bf65026559e13",
+    "studies/transport/data/experiment-001-implementation-freeze.json": "6b312652ca37c04dc72388948c480f152d7bf50ee4e4085ac84b3bcbc644904e",
+    "studies/transport/data/experiment-001-manifest.jsonl": "6059b548ed5b0e7ae977e92efe4876efeb9447cdae9743049e0bdbd625bab6e4",
+    "studies/transport/data/experiment-002-implementation-freeze.json": "520bc1025fbf4f671e70228af1b4fdba31249e4f4403e5ce9b13c7fe4dc8ed38",
+    "studies/transport/data/experiment-003-audit.json": "06369a3911d35d812a63d84f55a49fc6a4c82a6ae6a7b651178a04021db90fc3",
+    "studies/transport/data/experiment-003-data-freeze.json": "9f69da8082edac0673773148ef455b2a3e33026abc517ed1c5fa0c2884753156",
+    "studies/transport/data/experiment-003-implementation-freeze.json": "b4aec539ec8edc8c7a1bedb69d3c11115cf8878436f50c0882f352b4d7622981",
+    "studies/transport/data/experiment-003-manifest.jsonl": "e761adbfd186bbe923f5ab2965bac4469b7a29fa63087ef3af6817063f830c6e",
+    "studies/transport/data/experiment-004-feasibility-freeze.json": "478035f14ea5d76fcc40195a220f90cb57be94d20c27815b47733228f5547a0e",
+    "studies/transport/data/experiment-004-implementation-amendment-001.json": "0749b6ed7f00c5e8854ee319285ca80d7fcd8b6b995454d1d6e0c2e288278da2",
+    "studies/transport/data/experiment-004-implementation-amendment-002.json": "2594ec539d5ee70e8fc6b354a1e0c96316997a31a4c4e3fb7033cd1ad4863a1d",
+    "studies/transport/data/experiment-004-implementation-freeze.json": "7300f31dd7056c1d3ebea6148e255ef41b02835b10f8e55bf78aa0a0e3674fb6",
+    "studies/transport/data/experiment-004-manifest.jsonl": "e0403b331a717c1652a4ebabc2e396b5ce7bda8dc5a6f1ade9d3b1e080f52365",
+    "studies/transport/data/model-manifest.json": "95c94e0c3b7154d6a79f2d2087be1b5ece6610892e00603764424fbd1e46d061",
+    "studies/transport/data/pythia-model-manifest.json": "81941b0081fe8af5689ee90adfb4cb20079e315baaeb531352accff267d88baf"
+  },
+  "scope": "Fixed F10/F11 chosen in Medium; exact Bridge007 cases reused across checkpoints. No Small-specific pair search. All four inherited fitting families contribute equally to the mean replacement bank, regardless of Small behavior.",
+  "seed": 2026100409,
+  "study": "bridge-009",
+  "tokenization_pool": 282,
+  "tokenizer_files": {
+    "models/gpt2-small/config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+    "models/gpt2-small/generation_config.json": "ed0b32ac72c0f5f44a719abb2d7786ea5146c871f83717b7f2018065954de02b",
+    "models/gpt2-small/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "models/gpt2-small/tokenizer.json": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+    "models/gpt2-small/tokenizer_config.json": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+    "models/gpt2-small/vocab.json": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+  },
+  "unused_eligible_names": 120
+}

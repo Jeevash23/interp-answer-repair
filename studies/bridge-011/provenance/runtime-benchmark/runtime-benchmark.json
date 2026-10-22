@@ -1,0 +1,194 @@
+{
+  "purpose": "Runtime and cross-device agreement only; no scientific outcome inspected or retained",
+  "rows": "Study 2 calibration rows, families 10/11",
+  "n": 32,
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "device": "[6 GB NVIDIA GPU]",
+  "python": "3.12.14",
+  "runs": [
+    {
+      "device": "cuda",
+      "batch": 8,
+      "head_chunk": 8,
+      "condition": "clean",
+      "repeat": 0,
+      "rows": 32,
+      "seconds": 1.4032866540001123,
+      "seconds_per_row": 0.04385270793750351,
+      "peak_gpu_gb": 2.1812992
+    },
+    {
+      "device": "cuda",
+      "batch": 8,
+      "head_chunk": 8,
+      "condition": "clean",
+      "repeat": 1,
+      "rows": 32,
+      "seconds": 1.3539192149983137,
+      "seconds_per_row": 0.0423099754686973,
+      "peak_gpu_gb": 2.181298688
+    },
+    {
+      "device": "cuda",
+      "batch": 8,
+      "head_chunk": 8,
+      "condition": "wording",
+      "repeat": 0,
+      "rows": 32,
+      "seconds": 1.3859328480029944,
+      "seconds_per_row": 0.043310401500093576,
+      "peak_gpu_gb": 2.181528576
+    },
+    {
+      "device": "cuda",
+      "batch": 8,
+      "head_chunk": 8,
+      "condition": "wording",
+      "repeat": 1,
+      "rows": 32,
+      "seconds": 1.3618170979971183,
+      "seconds_per_row": 0.042556784312409945,
+      "peak_gpu_gb": 2.181528576
+    },
+    {
+      "device": "cuda",
+      "batch": 16,
+      "head_chunk": 8,
+      "condition": "clean",
+      "repeat": 0,
+      "rows": 32,
+      "seconds": 1.1403724940028042,
+      "seconds_per_row": 0.03563664043758763,
+      "peak_gpu_gb": 2.300703232
+    },
+    {
+      "device": "cuda",
+      "batch": 16,
+      "head_chunk": 8,
+      "condition": "clean",
+      "repeat": 1,
+      "rows": 32,
+      "seconds": 1.1307129739943775,
+      "seconds_per_row": 0.0353347804373243,
+      "peak_gpu_gb": 2.30070272
+    },
+    {
+      "device": "cuda",
+      "batch": 16,
+      "head_chunk": 8,
+      "condition": "wording",
+      "repeat": 0,
+      "rows": 32,
+      "seconds": 1.141513426999154,
+      "seconds_per_row": 0.035672294593723564,
+      "peak_gpu_gb": 2.301161984
+    },
+    {
+      "device": "cuda",
+      "batch": 16,
+      "head_chunk": 8,
+      "condition": "wording",
+      "repeat": 1,
+      "rows": 32,
+      "seconds": 1.1443062429971178,
+      "seconds_per_row": 0.03575957009365993,
+      "peak_gpu_gb": 2.301161984
+    },
+    {
+      "device": "cuda",
+      "batch": 16,
+      "head_chunk": 16,
+      "condition": "clean",
+      "repeat": 0,
+      "rows": 32,
+      "seconds": 1.1295827030044165,
+      "seconds_per_row": 0.03529945946888802,
+      "peak_gpu_gb": 2.409550336
+    },
+    {
+      "device": "cuda",
+      "batch": 16,
+      "head_chunk": 16,
+      "condition": "clean",
+      "repeat": 1,
+      "rows": 32,
+      "seconds": 1.0936466889979783,
+      "seconds_per_row": 0.03417645903118682,
+      "peak_gpu_gb": 2.409549824
+    },
+    {
+      "device": "cuda",
+      "batch": 16,
+      "head_chunk": 16,
+      "condition": "wording",
+      "repeat": 0,
+      "rows": 32,
+      "seconds": 1.0793968010038952,
+      "seconds_per_row": 0.033731150031371726,
+      "peak_gpu_gb": 2.410009088
+    },
+    {
+      "device": "cuda",
+      "batch": 16,
+      "head_chunk": 16,
+      "condition": "wording",
+      "repeat": 1,
+      "rows": 32,
+      "seconds": 1.0751844199985499,
+      "seconds_per_row": 0.03359951312495468,
+      "peak_gpu_gb": 2.410009088
+    },
+    {
+      "device": "cpu",
+      "batch": 8,
+      "head_chunk": 8,
+      "condition": "clean",
+      "repeat": 0,
+      "rows": 8,
+      "seconds": 4.6920272760035004,
+      "seconds_per_row": 0.5865034095004376,
+      "peak_gpu_gb": null
+    },
+    {
+      "device": "cpu",
+      "batch": 8,
+      "head_chunk": 8,
+      "condition": "clean",
+      "repeat": 1,
+      "rows": 8,
+      "seconds": 5.140982350996637,
+      "seconds_per_row": 0.6426227938745797,
+      "peak_gpu_gb": null
+    },
+    {
+      "device": "cpu",
+      "batch": 8,
+      "head_chunk": 8,
+      "condition": "wording",
+      "repeat": 0,
+      "rows": 8,
+      "seconds": 6.143035602995951,
+      "seconds_per_row": 0.7678794503744939,
+      "peak_gpu_gb": null
+    },
+    {
+      "device": "cpu",
+      "batch": 8,
+      "head_chunk": 8,
+      "condition": "wording",
+      "repeat": 1,
+      "rows": 8,
+      "seconds": 7.4443797759959125,
+      "seconds_per_row": 0.9305474719994891,
+      "peak_gpu_gb": null
+    }
+  ],
+  "max_abs_signature_difference_logits": {
+    "clean_gpu_b8c8_vs_cpu_8rows": 1.9073486328125e-05,
+    "clean_gpu_b16c16_vs_b8c8": 4.57763671875e-05,
+    "wording_gpu_b8c8_vs_cpu_8rows": 2.193450927734375e-05,
+    "wording_gpu_b16c16_vs_b8c8": 4.482269287109375e-05
+  },
+  "tolerance": 0.0005
+}

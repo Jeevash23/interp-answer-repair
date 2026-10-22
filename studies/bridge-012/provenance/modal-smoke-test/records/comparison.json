@@ -1,0 +1,65 @@
+{
+  "tolerance": 0.0005,
+  "max_abs_error": 2.47955322265625e-05,
+  "passed": true,
+  "per_condition": {
+    "clean": {
+      "raw": 2.288818359375e-05,
+      "behavior": 1.621246337890625e-05
+    },
+    "corrupt": {
+      "raw": 2.09808349609375e-05,
+      "behavior": 9.5367431640625e-06
+    },
+    "n1": {
+      "raw": 2.002716064453125e-05,
+      "behavior": 1.52587890625e-05
+    },
+    "n2": {
+      "raw": 2.47955322265625e-05,
+      "behavior": 1.1444091796875e-05
+    },
+    "order": {
+      "raw": 1.9073486328125e-05,
+      "behavior": 1.1444091796875e-05
+    },
+    "replay": {
+      "raw": 2.002716064453125e-05,
+      "behavior": 9.5367431640625e-06
+    },
+    "self": {
+      "raw": 2.09808349609375e-05,
+      "behavior": 9.5367431640625e-06
+    },
+    "self_kappa": {
+      "raw": 2.384185791015625e-05,
+      "behavior": 1.239776611328125e-05
+    },
+    "wording": {
+      "raw": 1.811981201171875e-05,
+      "behavior": 1.430511474609375e-05
+    }
+  },
+  "rows": [
+    "b011-test-t0-p0-r0-f10-o0",
+    "b011-test-t1-p1-r1-f10-o0",
+    "b011-test-t2-p2-r0-f10-o1",
+    "b011-test-t3-p3-r1-f10-o1",
+    "b011-test-t4-p4-r0-f11-o0",
+    "b011-test-t5-p5-r1-f11-o0",
+    "b011-test-t6-p6-r0-f11-o1",
+    "b011-test-t7-p7-r1-f11-o1"
+  ],
+  "conditions": [
+    "clean",
+    "corrupt",
+    "n1",
+    "n2",
+    "order",
+    "replay",
+    "self",
+    "self_kappa",
+    "wording"
+  ],
+  "compared_with": "studies/bridge-011/results/test/<condition>.npz at the eight singleton rows"
+}

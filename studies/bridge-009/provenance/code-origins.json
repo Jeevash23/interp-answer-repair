@@ -1,0 +1,9 @@
+{
+  "scope": "Audited Bridge007 implementation adapted before Bridge009 model inference; Small constructor, fixed pair, all-four-family mean bank, layer-7 boundary, model metadata and seed differ. No old-data planning mode.",
+  "source_hashes": {
+    "studies/bridge-007/code/pipeline007.py": "11bce511e5992c572c66a22729a0583ecbd277c1c889c4b37108403ea840dd65",
+    "studies/bridge-007/code/runner007.py": "d6fda2b6497d7f4219aff51599e6d4c328dd151ac5537d1619066c3a615f9f68",
+    "studies/bridge-007/code/analyze007.py": "748ff3b58e25e9a8555fdc0545a3e3ed955472fe6d5781e3354b907c9d977a1a",
+    "studies/bridge-007/code/secondary007.py": "1a4c606062717c2ab32d466467f36bb65ed01e590a1152ffee3b5d6acd77614d"
+  }
+}

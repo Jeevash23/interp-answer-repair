@@ -1,0 +1,47 @@
+[project]
+name = "activation-transfer"
+version = "0.1.0"
+description = "Activation transport, dependency prediction and behavioral repair in language models"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[project.optional-dependencies]
+experiment = [
+  "datasets==5.0.1",
+  "einops==0.8.2",
+  "huggingface-hub==1.29.0",
+  "jaxtyping==0.3.11",
+  "jupyterlab==4.6.3",
+  "matplotlib==3.11.1",
+  "numpy==2.5.2",
+  "pandas==3.0.5",
+  "safetensors==0.8.0",
+  "scipy==1.18.1",
+  "seaborn==0.13.2",
+  "torch==2.13.0",
+  "tqdm==4.70.0",
+  "transformer-lens==3.8.0",
+  "transformers==5.16.1",
+]
+
+[dependency-groups]
+dev = [
+  "numpy>=2",
+  "pytest>=8",
+  "ruff>=0.9",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/transport_bridge", "src/activation_transfer", "studies/transport/src/circuit_transport", "studies/routing/src/causal_circuit_routing"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "studies/transport/tests", "studies/routing/tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

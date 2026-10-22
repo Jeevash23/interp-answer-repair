@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Both final PNG plots visually inspected",
+    "Titles, labels, intervals and footnotes readable with no clipping",
+    "All 21 candidate pairs and all 12 primary comparisons shown",
+    "Selection legend uses a consistent color for all fresh-bank scores"
+  ],
+  "files": {
+    "primary-outcomes.png": "ff26f9027c59d014a0e99f78f24647b601a3dbc4ef201fab18e4db2dd41b31a2",
+    "selection-qualification.png": "77180520dd1a8827d94f36218e2aa795abcbc6f4f1fda4544e32da4c0e981cc8"
+  },
+  "scope": "Visual quality check; numerical quantities are separately audited",
+  "status": "passed",
+  "utc": "2026-09-09T04:19:26.871532+00:00"
+}

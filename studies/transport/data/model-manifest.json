@@ -1,0 +1,64 @@
+{
+  "generated_at_utc": "2026-08-31T15:56:20.619196+00:00",
+  "source": "Hugging Face Hub",
+  "format": "safetensors",
+  "models": [
+    {
+      "name": "gpt2-small",
+      "repo_id": "openai-community/gpt2",
+      "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+      "local_path": "models/gpt2-small",
+      "architecture": [
+        "GPT2LMHeadModel"
+      ],
+      "parameters_reported_by_config": {
+        "layers": 12,
+        "hidden_width": 768,
+        "attention_heads": 12,
+        "vocabulary_size": 50257
+      },
+      "weight_files": [
+        "model.safetensors"
+      ],
+      "bytes_on_disk": 554329898
+    },
+    {
+      "name": "gpt2-medium",
+      "repo_id": "openai-community/gpt2-medium",
+      "revision": "6dcaa7a952f72f9298047fd5137cd6e4f05f41da",
+      "local_path": "models/gpt2-medium",
+      "architecture": [
+        "GPT2LMHeadModel"
+      ],
+      "parameters_reported_by_config": {
+        "layers": 24,
+        "hidden_width": 1024,
+        "attention_heads": 16,
+        "vocabulary_size": 50257
+      },
+      "weight_files": [
+        "model.safetensors"
+      ],
+      "bytes_on_disk": 1526209315
+    },
+    {
+      "name": "gpt2-large",
+      "repo_id": "openai-community/gpt2-large",
+      "revision": "32b71b12589c2f8d625668d2335a01cac3249519",
+      "local_path": "models/gpt2-large",
+      "architecture": [
+        "GPT2LMHeadModel"
+      ],
+      "parameters_reported_by_config": {
+        "layers": 36,
+        "hidden_width": 1280,
+        "attention_heads": 20,
+        "vocabulary_size": 50257
+      },
+      "weight_files": [
+        "model.safetensors"
+      ],
+      "bytes_on_disk": 3253384895
+    }
+  ]
+}

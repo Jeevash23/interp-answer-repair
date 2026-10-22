@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-17T05:00:36.814230+00:00",
+  "files": {
+    "studies/bridge-012/README.md": {
+      "frozen_sha256": "50ce97b70f81807ff4573a10877de47291cd0186ac9d8f867bf235aa40c93c68",
+      "current_sha256": "5df11eef3a9228da80afde8e80fedc57d77a866282de55ba5a67091a72f6415a",
+      "preserved_copy": "studies/bridge-012/provenance/README-at-protocol-freeze.md",
+      "reason": "Navigation document listed in the protocol freeze. It was rewritten after the run on 17 October 2026 to give the final status (stopped at pair selection). The protocol and predictions, which carry the design, are unchanged. The frozen version is preserved byte for byte (recovered from the editor history and checked against the frozen hash)."
+    }
+  }
+}

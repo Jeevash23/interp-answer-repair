@@ -1,0 +1,91 @@
+{
+  "across_model_cases_identical": true,
+  "bank_families": [
+    10,
+    11,
+    12,
+    13
+  ],
+  "checkpoint_and_tokenizer_hashes": {
+    "models/gpt2-small/config.json": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4",
+    "models/gpt2-small/generation_config.json": "ed0b32ac72c0f5f44a719abb2d7786ea5146c871f83717b7f2018065954de02b",
+    "models/gpt2-small/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "models/gpt2-small/model.safetensors": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707",
+    "models/gpt2-small/tokenizer.json": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6",
+    "models/gpt2-small/tokenizer_config.json": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f",
+    "models/gpt2-small/vocab.json": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+  },
+  "exact_candidate_bytes_inherited": true,
+  "fit_mean_bank_rows": 1024,
+  "fit_signature_rows": 512,
+  "fixed_pair": [
+    10,
+    11
+  ],
+  "inherited_source_hashes": {
+    "configs/study.json": "8621cdef9cf91c48b5f1340f6af13173a35f92a8abf9c8b0d2ad008d5a6b992d",
+    "studies/bridge-007/data/candidates.json": "2a65709bfad2f2fc04dfe11ba7977cd95676682433285145b34566fcfe8221ab",
+    "studies/bridge-007/data/design.json": "8d4e1435b427a23de7a53be0b9c90ec0b4a01547058bef8515cb8953429db058",
+    "studies/bridge-007/data/input-freeze.json": "921b174ea9b292bc9bd8d35aed6f03a2041780dc6b6d3b69849ab5890d44c43c",
+    "studies/bridge-007/data/preparation-audit.json": "532181e47dfa768a93cc25db104eb9927d8bd042b48a1b28367941c384c441c8",
+    "studies/bridge-007/data/selection-freeze.json": "fd3df8c00ad5655d6ae94ce2f184ec869d50a81bfc00644d8647cf849ff46f7c",
+    "studies/bridge-007/data/selection.json": "44debb7538a7dfa1b6a00a2019d8c59d130636889992acbd1013242a63a8c9c3",
+    "studies/transport/data/model-manifest.json": "95c94e0c3b7154d6a79f2d2087be1b5ece6610892e00603764424fbd1e46d061",
+    "studies/transport/results/experiment-001/exploratory/run-config.json": "d5c1bc60050e7fbd0b30233f7ee3cc9965035d1312b1e0284f0cabbec138d5b9"
+  },
+  "matched_pair_alignments": 2752,
+  "model_spec": {
+    "heads": 12,
+    "layers": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "site": 7,
+    "source_heads": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "width": 768
+  },
+  "prepare_source_sha256": "5c33f5036e41c2f6cbaea1d12847778d8a99959f634e958f73fb6ea94b49bcff",
+  "retained_original_row_ids": true,
+  "rows": 11008,
+  "rows_per_split": {
+    "calibration": 64,
+    "fit": 1024,
+    "qualification": 2304,
+    "screen": 192,
+    "selection": 1024,
+    "test": 6400
+  },
+  "scientific_inference_performed": false,
+  "selected_pair_rows_per_split": {
+    "calibration": 32,
+    "fit": 512,
+    "qualification": 1152,
+    "screen": 96,
+    "selection": 512,
+    "test": 3200
+  },
+  "split_context_pairs_disjoint": true,
+  "split_names_disjoint": true,
+  "status": "tokenizer_only_checks_passed",
+  "token_ids_match_small": true
+}

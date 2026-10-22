@@ -1,0 +1,9 @@
+{
+  "summary_sha256": "3e2f2b5988094f7965e778af038dea6c44efdacc55b6beda40c4b4e9d9e633c2",
+  "verification_sha256": "03ab52564338244e342c5127e795fbd3f51b6cc1cc10c41899ffeafd6283d25b",
+  "calibration_sha256": "5c7557cdd10b45337bbb11782d91679b742efb037c5c8b7fb23a9756aa164c16",
+  "singleton_max_error": 2.193450927734375e-05,
+  "source": "studies/bridge-010/results/analysis/summary.json",
+  "study2_cell_source": "studies/bridge-007/results/analysis/summary.json",
+  "study2_cell_source_sha256": "fc5f9a07f7b3ca7d67d9857e7c28e2ae40e7af13b78fde2a369552aabbb5b877"
+}

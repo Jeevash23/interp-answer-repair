@@ -1,0 +1,119 @@
+% Version 2 editorial formatting of saved results; see review/revise_text.py.
+% Study 3: generated only from completed canonical passed verification.
+% Formatting only; primary intervals adjusted, secondary intervals pointwise as captioned.
+% Requires the manuscript's booktabs/tabularx/Y column and \ci macro.
+% Generator SHA256: bb5f1b133bfc0ee8720b109a61b9fa56b18e56a720cd07f4551d7229e1d35cb1
+% Source SHA256 studies/bridge-008/data/input-freeze.json: 418cd9b2cade7911ad18355065c59b526e2e7561baa950fbf203bb0517277339
+% Source SHA256 studies/bridge-008/results/analysis/summary.json: 86da8c7887d497a3938f7d863736be3d598326ddbdc054da3c8a0ed28b08d3d6
+% Source SHA256 studies/bridge-008/results/inference-complete.json: a4b7e2c65231ba9b902d91842e4b918e79162addc23a0c068176ff6c795dd0ee
+% Source SHA256 studies/bridge-008/results/verification.json: 2ec53f4d1b814a7733d97b90afb5881bd3d3111ea3640230cd0c1cf275caee1d
+
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 3 reuses the inspected Study 2 F10/F11 benchmark (3,200 configurations, 20 context blocks by 20 disjoint name triples). Four primary interactions $(S_{\rm word}-S_{\rm self})_{\rm coverage}-(S_{\rm word}-S_{\rm self})_{\rm narrow}$, in clean-wording separation units. Positive values mean an increased donorward differential. Brackets are four-quantity Bonferroni-adjusted intervals from 50,000 paired crossed-bootstrap draws. The operational criterion requires all four lower bounds above zero. This is an outcome-informed correlated follow-up, not independent replication or a test of algorithmic identity.}
+\label{tab:coverage-primary}
+\begin{tabularx}{\linewidth}{@{}lYY@{}}
+\toprule
+Coverage / reference & Interaction [adjusted CI] & Decision \\
+\midrule
+Broad / zero & 0.016\ci{0.009}{0.023} & Increase \\
+Broad / mean & 0.018\ci{0.009}{0.027} & Increase \\
+Matched broad / zero & 0.007\ci{0.001}{0.013} & Increase \\
+Matched broad / mean & 0.006\ci{$-0.001$}{0.013} & Inconclusive \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 3 reuses the inspected Study 2 F10/F11 benchmark (3,200 configurations, 20 context blocks by 20 disjoint name triples). All sixteen prespecified source-coverage interactions by recipient family/order and reference. Units and sign match the primary interaction; brackets are pointwise 95\% intervals, without multiplicity adjustment. A pooled effect need not hold in every cell; a signed null does not establish invariance.}
+\label{tab:coverage-cells}
+\begin{tabularx}{\linewidth}{@{}lYY@{}}
+\toprule
+Coverage / reference & Family / order & Interaction [95\% CI] \\
+\midrule
+Broad / zero & F10 / 0 & 0.014\ci{0.008}{0.020} \\
+Broad / zero & F10 / 1 & 0.024\ci{0.012}{0.036} \\
+Broad / zero & F11 / 0 & 0.012\ci{0.005}{0.018} \\
+Broad / zero & F11 / 1 & 0.012\ci{0.003}{0.022} \\
+Broad / mean & F10 / 0 & 0.017\ci{0.012}{0.023} \\
+Broad / mean & F10 / 1 & 0.031\ci{0.015}{0.047} \\
+Broad / mean & F11 / 0 & 0.009\ci{0.002}{0.016} \\
+Broad / mean & F11 / 1 & 0.013\ci{0.001}{0.026} \\
+Matched broad / zero & F10 / 0 & 0.005\ci{$-0.001$}{0.010} \\
+Matched broad / zero & F10 / 1 & 0.022\ci{0.009}{0.035} \\
+Matched broad / zero & F11 / 0 & 0.004\ci{$-0.001$}{0.008} \\
+Matched broad / zero & F11 / 1 & $-0.003$\ci{$-0.012$}{0.006} \\
+Matched broad / mean & F10 / 0 & 0.004\ci{$-0.001$}{0.009} \\
+Matched broad / mean & F10 / 1 & 0.025\ci{0.009}{0.041} \\
+Matched broad / mean & F11 / 0 & 0.001\ci{$-0.004$}{0.005} \\
+Matched broad / mean & F11 / 1 & $-0.007$\ci{$-0.016$}{0.002} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption[Study 3 behavioural outcomes]{Study 3 reuses the inspected Study 2 F10/F11 benchmark (3,200 configurations, 20 context blocks by 20 disjoint name triples). Behavioural outcomes for all six coverage/donor conditions. Recovery is the IO-minus-subject logit gain over corruption, with pointwise 95\% intervals. Top-1 and pairwise accuracy are percentages. Broad coverage uses all 112 heads in the same seven S2 layers as the twelve narrow heads. Matched broad coverage matches the norm of each layer's summed residual edit; disrupted cases remain included.\protect\footnotemark}
+\label{tab:coverage-behavior}
+\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+\toprule
+Coverage / donor & Recovery [95\% CI] & Top-1 & Pairwise \\
+\midrule
+Narrow / wording & 2.332\ci{2.071}{2.606} & 90.7 & 95.1 \\
+Narrow / self & 2.414\ci{2.156}{2.683} & 90.4 & 95.3 \\
+Broad / wording & 2.439\ci{2.149}{2.745} & 92.4 & 96.2 \\
+Broad / self & 2.517\ci{2.233}{2.813} & 92.5 & 96.7 \\
+Matched broad / wording & 1.873\ci{1.607}{2.155} & 87.7 & 92.1 \\
+Matched broad / self & 1.942\ci{1.677}{2.220} & 87.0 & 92.8 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\footnotetext{Tables~\ref{tab:confirmation-behavior} and~\ref{tab:coverage-behavior} use the same recoveries but different saved bootstrap seeds: 2026100407 for Study 2 and 2026100408 for Study 3, each with 50,000 crossed draws. Their slightly different percentile limits reflect Monte Carlo variation, not new observations or changed point estimates.}
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 3 reuses the inspected Study 2 F10/F11 benchmark (3,200 configurations, 20 context blocks by 20 disjoint name triples). Pooled wording-minus-self signed donor-axis differences, mean absolute axis differences and full-signature discrepancies, in clean-wording separation units. Brackets are pointwise 95\% intervals. Absolute values and vector norms are taken before averaging, so signed cancellation is visible.}
+\label{tab:coverage-discrepancy}
+\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+\toprule
+Coverage / reference & Signed $\Delta S$ [95\% CI] & $A$ [95\% CI] & $F$ [95\% CI] \\
+\midrule
+Narrow / zero & 0.015\ci{0.009}{0.021} & 0.027\ci{0.023}{0.032} & 0.159\ci{0.144}{0.174} \\
+Narrow / mean & 0.026\ci{0.020}{0.033} & 0.034\ci{0.029}{0.041} & 0.174\ci{0.157}{0.191} \\
+Broad / zero & 0.030\ci{0.022}{0.040} & 0.042\ci{0.036}{0.049} & 0.242\ci{0.223}{0.262} \\
+Broad / mean & 0.044\ci{0.033}{0.057} & 0.052\ci{0.043}{0.063} & 0.263\ci{0.241}{0.288} \\
+Matched broad / zero & 0.022\ci{0.014}{0.030} & 0.037\ci{0.032}{0.044} & 0.204\ci{0.186}{0.223} \\
+Matched broad / mean & 0.032\ci{0.024}{0.041} & 0.043\ci{0.036}{0.051} & 0.220\ci{0.199}{0.242} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\begin{table}[H]
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\caption{Study 3 reuses the inspected Study 2 F10/F11 benchmark (3,200 configurations, 20 context blocks by 20 disjoint name triples). Pooled edited distances from the clean recipient ($q_R$) and clean donor ($q_D$), each normalised by their matched clean separation. Brackets are pointwise 95\% intervals. These endpoint distances and behavioural recovery constrain interpretation of a donor-axis change; closeness is not algorithm identity.}
+\label{tab:coverage-endpoints}
+\begin{tabularx}{\linewidth}{@{}lYYY@{}}
+\toprule
+Coverage / donor & Reference & $q_R$ [95\% CI] & $q_D$ [95\% CI] \\
+\midrule
+Narrow / wording & zero & 1.077\ci{1.024}{1.130} & 1.345\ci{1.309}{1.382} \\
+Narrow / wording & mean & 0.965\ci{0.916}{1.014} & 1.259\ci{1.226}{1.293} \\
+Narrow / self & zero & 1.064\ci{1.011}{1.118} & 1.346\ci{1.311}{1.382} \\
+Narrow / self & mean & 0.947\ci{0.898}{0.996} & 1.267\ci{1.234}{1.300} \\
+Broad / wording & zero & 1.088\ci{1.034}{1.143} & 1.346\ci{1.308}{1.385} \\
+Broad / wording & mean & 0.982\ci{0.931}{1.034} & 1.261\ci{1.227}{1.298} \\
+Broad / self & zero & 1.068\ci{1.013}{1.124} & 1.353\ci{1.317}{1.390} \\
+Broad / self & mean & 0.954\ci{0.902}{1.007} & 1.274\ci{1.241}{1.309} \\
+Matched broad / wording & zero & 1.175\ci{1.120}{1.233} & 1.404\ci{1.363}{1.445} \\
+Matched broad / wording & mean & 1.079\ci{1.027}{1.133} & 1.328\ci{1.291}{1.367} \\
+Matched broad / self & zero & 1.161\ci{1.104}{1.220} & 1.406\ci{1.367}{1.447} \\
+Matched broad / self & mean & 1.061\ci{1.007}{1.117} & 1.336\ci{1.299}{1.375} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
+
+\noindent\textit{Matching diagnostics.} No layer match was undefined for either donor condition; scaling coefficients ranged from 0.027 to 1.365. The equal pooled ranges are exact: wording donors permute the same complete bank used for self donors, so their layerwise norms and scaling coefficients are the same multiset. Individual paired coefficients differ. Near-zero layers use the frozen $10^{-12}$ rule, and the norm check allows $10^{-6}+10^{-5}\|\delta_{\rm narrow}\|$. An undefined match makes its entire matched condition unavailable, with no deletion of cases or reduction of the four-quantity family. Full layerwise norms, scale distributions, all secondary cells and changes relative to narrow coverage remain in the saved Study 3 analysis.

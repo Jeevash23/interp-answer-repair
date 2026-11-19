@@ -240,13 +240,13 @@ and where that study is released:
 
 As the preprint states:
 
-> Language-model assistants (Claude, Anthropic; Codex, OpenAI) were used throughout this work, under the author's
+> Language-model assistants were used throughout this work, under the author's
 > direction, to help design the studies, to write and run the code for the experiments and analyses, to draft and
 > revise the text and to check the references against their online records. All reported results come from the
 > saved study outputs, and the numbers in the text were generated from those outputs or checked against them.
 
 In the working records shipped here, the names of software tools were replaced by placeholders such as
-`[redacted]`; the assistants used are the ones named above.
+`[redacted]`.
 
 ## Citation
 

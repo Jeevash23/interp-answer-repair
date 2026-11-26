@@ -19,8 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-The licence covers the code and the studies' records and saved outputs.
-Third-party material keeps its own licence: model weights, tokenisers and
-packages are not included and are downloaded from their own sources, and the
-third-party files that are included are named in README.md with their licences.
